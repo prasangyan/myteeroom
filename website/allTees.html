@@ -57,12 +57,11 @@
 				<div class="nav">
 					<ul>
 						<li>
-							<a href="index.html" class="selected">Home</a>
+							<a href="index.html">Home</a>
 						</li>
 						<li>
-							<a href="allTees.html">All tees</a>
+							<a href="" class="selected">All tees</a>
 						</li>
-						<li><a href="submit.html">Submit</a></li>
 						<a href="#">
 							<li class="cart">
 								<img src="img/cart.png" alt="">
@@ -78,28 +77,8 @@
     </header>
     <div id="main" role="main">
 			
-			<!-- Slider -->
-			<div class="sliderWrapper">
-				<div class="imgSlider">
-					<a href="#"><img src="img/slider2.jpg" alt=""></a>
-				</div>
-			</div>
-			
-			<div class="row first">
-				<div class="column1">
-					<h2>What is myTeeroom</h2>
-					<p>myTeeroom is online store for beautiful Tees. At myTeeroom you can also submit your own designs and let your friends vote on it. We will then print the most popular designs</p>
-				</div>
-				<div class="column2">
-					<h2>Join the community</h2>
-					<p>sign up</p>
-				</div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
 			<div class="row">
-				<h2>Popular Tees</h2>
+				<h2>All Tees</h2>
 				<div class="firstImage">
 				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
 				<p class="teePrice">RM 49.90</p>
@@ -120,44 +99,69 @@
 			<div class="clearfix"></div>
 			
 			<div class="row">
-				<h2>Popular Tees</h2>
 				<div class="firstImage">
-				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
-				<p>Hello</p>
+				<a href="#" class="first"><img src="img/tShirtPreview5.jpg" alt=""></a>
+				<p class="teePrice">RM 49.90</p>
+				<p class="teeTitle">The artist</p>
 				</div>
 				<div class="secondImage">
-					<a href="#" class="second"><img src="img/tShirtPreview.jpg" alt=""></a>
-					<p>Hello</p>
+					<a href="#" class="second"><img src="img/tShirtPreview6.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
 				</div>
 				<div class="thirdImage">
-					<a href="#" class="last"><img src="img/tShirtPreview.jpg" alt=""></a>
-					<p class="price">Hello</p>
-					<p class="title">The artist</p>
+					<a href="preview.html" class="last"><img src="img/tShirtPreview3.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
 				</div>
 			</div>
+
 			<div class="clearfix"></div>
+			
+			<div class="row">
+				<div class="firstImage">
+				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
+				<p class="teePrice">RM 49.90</p>
+				<p class="teeTitle">The artist</p>
+				</div>
+				<div class="secondImage">
+					<a href="#" class="second"><img src="img/tShirtPreview2.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
+				</div>
+				<div class="thirdImage">
+					<a href="preview.html" class="last"><img src="img/tShirtPreview3.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+						<div class="row">
+				<div class="firstImage">
+				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
+				<p class="teePrice">RM 49.90</p>
+				<p class="teeTitle">The artist</p>
+				</div>
+				<div class="secondImage">
+					<a href="#" class="second"><img src="img/tShirtPreview2.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
+				</div>
+				<div class="thirdImage">
+					<a href="preview.html" class="last"><img src="img/tShirtPreview3.jpg" alt=""></a>
+					<p class="teePrice">RM 49.90</p>
+					<p class="teeTitle">The artist</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
 			
     </div>
     <footer>
-			<div class="footerContainer">
-				<div class="shopFor">
-					<h3>Shop for</h3>
-					<ul>
-						<li><a href="allTees.html">Guys</a></li>
-						<li><a href="allTees.html">Girls</a></li>
-					</ul>					
-				</div>
-				
-				<div class="additionalLinks">
-					<h3>Vote and Submit</h3>
-					<ul>
-						<li><a href="submit.html">Submit a design</a></li>
-						<li><a href="rules.html">Rules</a></li>
-						<li><a href="terms.html">Terms and Conditions</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
+			Something goes here
     </footer>
   </div> <!--! end of #container -->
 
@@ -170,6 +174,13 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
   -->
 
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+				$('#slider').nivoSlider();
+		});
+	</script>
 
   <!-- scripts concatenated and minified via ant build script-->
 	<!--

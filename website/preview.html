@@ -35,7 +35,16 @@
 </head>
 
 <body>
-
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
   <div id="container">
     <header>
 		
@@ -57,19 +66,17 @@
 				<div class="nav">
 					<ul>
 						<li>
-							<a href="index.html" class="selected">Home</a>
+							<a href="index.html">Home</a>
 						</li>
 						<li>
-							<a href="allTees.html">All tees</a>
+							<a href="">All tees</a>
 						</li>
-						<li><a href="submit.html">Submit</a></li>
 						<a href="#">
 							<li class="cart">
 								<img src="img/cart.png" alt="">
 								Cart: 0 Items
 							</li>
 						</a>
-						
 					</ul>
 				</div>
 				
@@ -77,87 +84,51 @@
 			
     </header>
     <div id="main" role="main">
-			
-			<!-- Slider -->
-			<div class="sliderWrapper">
-				<div class="imgSlider">
-					<a href="#"><img src="img/slider2.jpg" alt=""></a>
+			<div class="teePreviewLarge">
+				<img src="img/tShirtPreview3Large.jpg" alt="">
+			</div>			
+			<div class="teeDetails">
+				<h3 class="previewPrice">RM 49.95</h3>
+				<h3 class="previewTitle">The Parrot</h3>
+				<div class="sizes">
+					<ul>
+						<li>S</li>
+						<li>M</li>
+						<li>L</li>
+						<li>XL</li>
+						<li>XXL</li>
+					</ul>
 				</div>
-			</div>
-			
-			<div class="row first">
-				<div class="column1">
-					<h2>What is myTeeroom</h2>
-					<p>myTeeroom is online store for beautiful Tees. At myTeeroom you can also submit your own designs and let your friends vote on it. We will then print the most popular designs</p>
+				
+				<select class="gender">
+			  <option value="Guy">Guy</option>
+			  <option value="Girl">Girl</option>
+			</select>
+				
+				<a href="#" class="large blue awesome">Add to cart</a>
+				
+				<div class="paypalLogo">
+					<!-- PayPal Logo --><table border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="center"></td></tr>
+<tr><td align="center"><a href="#" onclick="javascript:window.open('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal.com/en_US/i/bnr/bnr_wePrefer_150x40.gif" border="0" alt="Additional Options"></a></td></tr></table><!-- PayPal Logo -->
 				</div>
-				<div class="column2">
-					<h2>Join the community</h2>
-					<p>sign up</p>
+				
+				<div class="social">
+				
+					<h3>Share</h3>
+					<iframe src="http://www.facebook.com/plugins/like.php?href=YOUR_URL"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:23px"></iframe> 
 				</div>
 			</div>
 			
 			<div class="clearfix"></div>
 			
-			<div class="row">
-				<h2>Popular Tees</h2>
-				<div class="firstImage">
-				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
-				<p class="teePrice">RM 49.90</p>
-				<p class="teeTitle">The artist</p>
-				</div>
-				<div class="secondImage">
-					<a href="#" class="second"><img src="img/tShirtPreview2.jpg" alt=""></a>
-					<p class="teePrice">RM 49.90</p>
-					<p class="teeTitle">The artist</p>
-				</div>
-				<div class="thirdImage">
-					<a href="preview.html" class="last"><img src="img/tShirtPreview3.jpg" alt=""></a>
-					<p class="teePrice">RM 49.90</p>
-					<p class="teeTitle">The artist</p>
-				</div>
-			</div>
-
-			<div class="clearfix"></div>
-			
-			<div class="row">
-				<h2>Popular Tees</h2>
-				<div class="firstImage">
-				<a href="#" class="first"><img src="img/tShirtPreview.jpg" alt=""></a>
-				<p>Hello</p>
-				</div>
-				<div class="secondImage">
-					<a href="#" class="second"><img src="img/tShirtPreview.jpg" alt=""></a>
-					<p>Hello</p>
-				</div>
-				<div class="thirdImage">
-					<a href="#" class="last"><img src="img/tShirtPreview.jpg" alt=""></a>
-					<p class="price">Hello</p>
-					<p class="title">The artist</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
+			<h2>Say something</h2>
+			<div class="fb-comments" data-href="http://myteeroom.com" data-num-posts="5" data-width="600"></div>
 			
     </div>
     <footer>
-			<div class="footerContainer">
-				<div class="shopFor">
-					<h3>Shop for</h3>
-					<ul>
-						<li><a href="allTees.html">Guys</a></li>
-						<li><a href="allTees.html">Girls</a></li>
-					</ul>					
-				</div>
-				
-				<div class="additionalLinks">
-					<h3>Vote and Submit</h3>
-					<ul>
-						<li><a href="submit.html">Submit a design</a></li>
-						<li><a href="rules.html">Rules</a></li>
-						<li><a href="terms.html">Terms and Conditions</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
+			Something goes here
     </footer>
   </div> <!--! end of #container -->
 
@@ -170,6 +141,13 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
   -->
 
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+				$('#slider').nivoSlider();
+		});
+	</script>
 
   <!-- scripts concatenated and minified via ant build script-->
 	<!--
