@@ -1,0 +1,40 @@
+<h1>All Tees</h1>
+
+<% numberOfItems = @items.length %>
+<% @items.each_index do |itemIndex| %>
+ <div class="row">
+
+	<div class="firstImage">
+		<a href="/items/<%= itemIndex + 1 %>" class="first"><%= image_tag @items[itemIndex].thumbnail.url %></a>
+		<p class="teePrice">RM <%= @items[itemIndex].price %></p>
+		<p class="teeTitle"><%= @items[itemIndex].title %></p>
+	</div>
+
+	<% itemIndex = itemIndex + 1 %>
+	<% if itemIndex >= numberOfItems %>
+	<% break %>
+	<% 	end %>
+	<div class="secondImage">
+    <a href="/items/<%= itemIndex + 1 %>" class="second"><%= image_tag @items[itemIndex].thumbnail.url %></a>
+		<p class="teePrice">RM <%= @items[itemIndex].price %></p>
+		<p class="teeTitle"><%= @items[itemIndex].title %></p>
+	</div>
+
+	<% itemIndex = itemIndex + 1 %>
+	<% if itemIndex >= numberOfItems %>
+	 	<div class="thirdImage"></div>
+	 	</div>
+	 	<div class="clearfix"></div>
+		<% break %>
+	<% 	end %>
+	<div class="thirdImage">
+    <a href="/items/<%= itemIndex + 1 %>" class="last"><%= image_tag @items[itemIndex].thumbnail.url %></a>
+		<p class="teePrice">RM <%= @items[itemIndex].price %></p>
+		<p class="teeTitle"><%= @items[itemIndex].title %></p>
+	</div>
+</div>
+<div class="clearfix"></div>
+
+<% end %>
+
+<!--<%= link_to 'New Item', new_item_path %>-->

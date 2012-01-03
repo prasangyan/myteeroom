@@ -1,4 +1,88 @@
 /*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+/* line 1, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 8, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 13, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 18, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 20, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 22, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 27, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 30, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 33, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 38, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 45, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 54, D:/Work/Design/myteeroom/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
 * HTML5 ✰ Boilerplate
 *
 * What follows is the result of much research on cross-browser styling.
@@ -12,6 +96,7 @@
 =============================================================================
 HTML5 display definitions
 ==========================================================================*/
+
 ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
 {
 	display: block;
@@ -755,111 +840,6 @@ FOOTER
 	font-weight: normal;
 	line-height: 1.5em;
 	font-size: 1.2em;
-}
-.comments
-{
-	width: 600px;
-}
-/*------------------------------------------
-PURE CSS SPEECH BUBBLES
-by Nicolas Gallagher
-- http://nicolasgallagher.com/pure-css-speech-bubbles/
-
-http://nicolasgallagher.com
-http://twitter.com/necolas
--------------------------------------------------------------------------------------------------------------------------------*/
-.triangle-isosceles
-{
-	position: relative;
-	padding: 15px;
-	margin: 20px 0 3em;
-	color: #000;
-	background: #EFEFEF;
-/*default background for browsers without gradient support
-css3*/
-	border-radius: 6px;
-}
-P.triangle-isosceles
-{
-	font-weight: normal;
-	line-height: 1.5em;
-}
-.triangle-isosceles:after
-{
-	content: "";
-	position: absolute;
-	bottom: -15px;
-/*value = - border-top-width - border-bottom-width*/
-	left: 50px;
-/*controls horizontal position*/
-	border-width: 15px 15px 0;
-/*vary these values to change the angle of the vertex*/
-	border-style: solid;
-	border-color: #F3961C transparent;
-/*reduce the damage in FF3.0*/
-	display: block;
-	width: 0;
-}
-/*Variant : top
-------------------------------------------*/
-.triangle-isosceles.top:after
-{
-	top: -15px;
-/*value = - border-top-width - border-bottom-width
-controls horizontal position*/
-	bottom: auto;
-	left: auto;
-	border-width: 0 15px 15px;
-/*vary these values to change the angle of the vertex*/
-	border-color: #EFEFEF transparent;
-}
-.commentDetails H3
-{
-	display: inline;
-}
-.commentDetails H3 A
-{
-	color: #051C3C;
-	text-decoration: none;
-}
-.commentDetails H3 A:hover
-{
-	background: #051C3C;
-	color: #FFF;
-	text-decoration: none;
-}
-.commentDetails P
-{
-	color: #B8B6B6;
-	display: inline;
-}
-.singleComment
-{
-	margin-bottom: 20px;
-}
-.commentSubmission LABEL
-{
-	display: block;
-	margin-bottom: 5px;
-}
-.commentSubmission LABEL SPAN
-{
-	color: #FF2B2B;
-	font-size: 1.2em;
-}
-.commentSubmission INPUT
-{
-	display: block;
-	margin-bottom: 10px;
-	width: 600px;
-	padding: 5px;
-}
-.commentSubmission TEXTAREA
-{
-	display: block;
-	margin-bottom: 20px;
-	width: 600px;
-	padding: 5px;
 }
 /*==|== non-semantic helper classes ========================================
 Please define your styles before this section.
