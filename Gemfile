@@ -5,12 +5,15 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
 gem "rake", "0.8.7"
 gem "mysql"
 
-gem 'paperclip', :path => 'vendor/gems/paperclip'
+# Un comment this if this is the dev env
+# gem 'paperclip', :path => 'vendor/gems/paperclip'
+
+# Comment this off it is the dev env
+gem 'paperclip'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

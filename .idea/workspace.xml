@@ -89,10 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.4573991">
+            <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="313" selection-end="313" vertical-scroll-proportion="0.26681614">
               <folding />
             </state>
           </provider>
@@ -126,7 +135,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20120101190927_create_items.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/controllers/product_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120102173504_add_price.rb" />
         <option value="$PROJECT_DIR$/app/views/items/index.html.erb" />
@@ -137,6 +145,7 @@
         <option value="$PROJECT_DIR$/app/views/items/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/addToCart.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -809,13 +818,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120102162443_add_attachment_large_preview_to_item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseFiles/website/preview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="120" column="6" selection-start="4062" selection-end="4062" vertical-scroll-proportion="-3.2692308">
@@ -912,7 +914,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.4573991">
+        <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="313" selection-end="313" vertical-scroll-proportion="0.26681614">
           <folding />
         </state>
       </provider>
