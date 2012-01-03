@@ -89,19 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+            <state line="17" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.32399103">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19058296">
+            <state line="10" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20120101142334_create_tee_creators.rb" />
         <option value="$PROJECT_DIR$/test/unit/tee_creator_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120101190927_create_items.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
@@ -146,6 +145,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/addToCart.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -912,16 +912,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+        <state line="10" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19058296">
+        <state line="17" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.32399103">
           <folding />
         </state>
       </provider>
