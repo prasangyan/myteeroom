@@ -1,0 +1,102 @@
+2012-01-03T15:57:19+00:00 heroku[api]: Add-on add logging:basic by prashant@myteeroom.com
+2012-01-03T15:57:19+00:00 heroku[api]: Release v2 created by prashant@myteeroom.com
+2012-01-03T16:11:42+00:00 heroku[slugc]: Slug compilation started
+2012-01-03T16:11:56+00:00 heroku[slugc]: Slug compilation failed: failed to compile Ruby/rails app
+2012-01-03T16:26:26+00:00 heroku[slugc]: Slug compilation started
+2012-01-03T16:26:48+00:00 heroku[api]: Add-on add shared-database:5mb by prashant@myteeroom.com
+2012-01-03T16:26:49+00:00 heroku[api]: Release v3 created by prashant@myteeroom.com
+2012-01-03T16:26:49+00:00 heroku[api]: Config add RAILS_ENV, LANG, PATH, RACK_ENV, GEM_PATH by prashant@myteeroom.com
+2012-01-03T16:26:49+00:00 heroku[api]: Release v4 created by prashant@myteeroom.com
+2012-01-03T16:26:49+00:00 heroku[api]: Deploy fa2fa59 by prashant@myteeroom.com
+2012-01-03T16:26:49+00:00 heroku[api]: Release v5 created by prashant@myteeroom.com
+2012-01-03T16:26:50+00:00 heroku[web.1]: State changed from created to starting
+2012-01-03T16:26:52+00:00 heroku[slugc]: Slug compilation finished
+2012-01-03T16:27:07+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-03T16:27:07+00:00 heroku[web.1]: State changed from crashed to created
+2012-01-03T16:27:07+00:00 heroku[web.1]: State changed from created to starting
+2012-01-03T16:27:22+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-03T16:32:39+00:00 heroku[router]: Error H10 (App crashed) -> GET morning-sunrise-3411.herokuapp.com/ dyno= queue= wait= service= status=503 bytes=
+2012-01-03T16:32:40+00:00 heroku[router]: Error H10 (App crashed) -> GET morning-sunrise-3411.herokuapp.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2012-01-03T16:37:21+00:00 heroku[web.1]: State changed from crashed to created
+2012-01-03T16:37:21+00:00 heroku[web.1]: State changed from created to starting
+2012-01-03T16:37:30+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 49291`
+2012-01-03T16:37:35+00:00 app[web.1]: => Booting WEBrick
+2012-01-03T16:37:35+00:00 app[web.1]: => Rails 3.1.1 application starting in production on http://0.0.0.0:49291
+2012-01-03T16:37:35+00:00 app[web.1]: => Call with -d to detach
+2012-01-03T16:37:35+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-01-03T16:37:35+00:00 app[web.1]: Exiting
+2012-01-03T16:37:35+00:00 app[web.1]: /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection': Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (pg is not part of the bundle. Add it to Gemfile.) (RuntimeError)
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_specification.rb:68:in `establish_connection'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_spec
+ification.rb:60:in `establish_connection'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_specification.rb:55:in `establish_connection'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/railtie.rb:69:in `block (2 levels) in <class:Railtie>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/lazy_load_hooks.rb:42:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activerecord-3.1.1/lib/active_record/base.rb:2190:in `<top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `constantize'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/core_ext/string/inflections.rb:43:in `constantize'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/app/models/item.rb:1:in `<top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:128:in `inherited'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/abstract_controller/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/railties/paths.rb:7:in `block (2 levels) in with'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:302:in `depend_on'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:214:in `require_dependency'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:417:in `block (2 levels) in eager_load!'
+2012-01-03T16:37:35+00:00 app[
+web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `block in eager_load!'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `eager_load!'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/application/finisher.rb:51:in `block in <module:Finisher>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `instance_exec'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `run'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:55:in `block in run_initializers'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `run_initializers'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1
+.9.1/gems/railties-3.1.1/lib/rails/application.rb:96:in `initialize!'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `const_missing'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `each'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/app/controllers/items_controller.rb:1:in `<top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/config.ru:4:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/config.ru:4:in `block in <main>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `instance_eval'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `initialize'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/config.ru:1:in `new'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/config.ru:1:in `<main>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:40:in `eval'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:40:in `parse_file'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/server.rb:200:in `app'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/commands/server.rb:46:in `app'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/server.rb:301:in `wrapped_app'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/server.rb:252:in `start'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/commands.rb:54:in `block in <top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/commands.rb:49:in `<top (required)>'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from script/rails:6:in `require'
+2012-01-03T16:37:35+00:00 app[web.1]: 	from script/rails:6:in `<main>'
+2012-01-03T16:37:36+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-03T16:37:37+00:00 heroku[web.1]: Process exited

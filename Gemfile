@@ -13,6 +13,8 @@ gem "mysql"
 
 # Comment this off it is the dev env
 gem 'paperclip'
+gem 'pg'
+
 
 
 # Gems used only for assets and not required
