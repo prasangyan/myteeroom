@@ -9,11 +9,11 @@ gem "rake", "0.8.7"
 gem "mysql"
 
 # Un comment this if this is the dev env
-# gem 'paperclip', :path => 'vendor/gems/paperclip'
+ gem 'paperclip', :path => 'vendor/gems/paperclip'
 
 # Comment this off it is the dev env
-gem 'paperclip'
-gem 'pg'
+# gem 'paperclip'
+# gem 'pg'
 
 
 
