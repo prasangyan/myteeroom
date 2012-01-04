@@ -1,0 +1,254 @@
+/*Reset
+http://meyerweb.com/eric/tools/css/reset/
+v1.0 | 20080212*/
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, EM, FONT, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, SUB, SUP, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+BODY
+{
+	line-height: 1;
+}
+OL, UL
+{
+	list-style: none;
+}
+BLOCKQUOTE, Q
+{
+	quotes: none;
+}
+BLOCKQUOTE:before, BLOCKQUOTE:after, Q:before, Q:after
+{
+	content: '';
+	content: none;
+}
+/*remember to define focus styles!*/
+:focus
+{
+	outline: 0;
+}
+/*remember to highlight inserts somehow!*/
+INS
+{
+	text-decoration: none;
+}
+DEL
+{
+	text-decoration: line-through;
+}
+/*tables still need 'cellspacing="0"' in the markup*/
+TABLE
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*************************************************************************************************
+Clearfix*/
+.clearfix:before, .clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+}
+.clearfix
+{
+	zoom: 1;
+}
+/**************************************************************************************************/
+BODY
+{
+	background: url(../images/background.png);
+	color: #444;
+	font-family: museo-sans;
+}
+BODY P
+{
+	line-height: 1.3em;
+}
+H1, H2, H3, H4
+{
+	font-family: museo-slab;
+}
+H1
+{
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+H3
+{
+	font-size: 2.1em;
+	margin-bottom: 10px;
+}
+H4
+{
+	font-size: 1.5em;
+}
+.container
+{
+	margin: 0 auto;
+	width: 960px;
+}
+.container .header
+{
+}
+.container .header IMG
+{
+	padding-top: 10px;
+	float: left;
+}
+.container .header .nav
+{
+	float: left;
+	margin-top: 16px;
+	margin-left: 40px;
+}
+.container .header UL
+{
+	font-family: museo-slab;
+	display: inline;
+}
+.container .header UL LI
+{
+	display: inline;
+	margin-right: 30px;
+}
+.container .header UL LI A
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.container .header UL LI A:hover
+{
+	color: #E71736;
+}
+.container .header .cart
+{
+	color: #FFFFFF;
+	background: #E71736;
+	float: right;
+	padding: 5px;
+	border-radius: 0 0 3px 3px ;
+}
+.container .header .cart A
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 0.8em;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.container .header .cart A:hover
+{
+	background: #FFFFFF;
+	color: #E71736;
+}
+.container .slider
+{
+	float: left;
+	margin-top: 20px;
+	background: #FFFFFF;
+	width: 960px;
+}
+.container .slider IMG
+{
+	float: left;
+}
+.container .slider .sliderImageDetails
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 460px;
+}
+.contentContainer
+{
+	width: 960px;
+	margin: 20px auto;
+}
+.content
+{
+	background: #FFFFFF;
+	padding: 10px;
+	margin-top: 20px;
+}
+.content .firstRow
+{
+	width: 600px;
+	float: left;
+	margin-right: 20px;
+}
+.content .secondRow
+{
+	width: 320px;
+	float: left;
+}
+H3.popularTeeHeading
+{
+	margin-top: 20px;
+}
+.row .threeColumnfirstTeeColumn
+{
+	float: left;
+	margin-right: 20px;
+	min-width: 300px;
+}
+.row .threeColumnsecondTeeColumn
+{
+	float: left;
+	margin-right: 20px;
+	min-width: 300px;
+}
+.row .threeColumnthirdTeeColumn
+{
+	float: left;
+	min-width: 300px;
+}
+.footer
+{
+	margin-top: 20px;
+	padding: 10px;
+}
+.footer H4
+{
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.footer H4
+{
+	color: #FFFFFF;
+}
+.footer LI
+{
+	margin-bottom: 10px;
+}
+.footer A
+{
+	color: #E71736;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.footer A:hover
+{
+	background: #E71736;
+	color: #FFFFFF;
+}
