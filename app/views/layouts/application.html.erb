@@ -1,106 +1,14 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title><%= @pageTitle || 'myteeroom'  %></title>
-  <%= stylesheet_link_tag    "style" %>
+  <title>Myteeroom</title>
+  <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
- 	<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" %>
- 	<%= javascript_include_tag "/assets/addToCart.js" %>
   <%= csrf_meta_tags %>
- 	<script type="text/javascript" src="http://use.typekit.com/awm0wnp.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-    <div id="container">
-        <header>
-            <div class="topNavBG">
-                <div class="topNav">
-                    <ul>
-                        <li><a href="#">Contact us</a></li>
-                        <li>|</li>
-                        <li><a href="#">Login</a></li>
-                        <li>|</li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
 
-    <div class="topBar">
-			<%= link_to image_tag("/assets/logo.png"), root_url %>
+<%= yield %>
 
-		<div class="nav">
-			<ul>
-				<li>
-				 <%= link_to "Home", root_url%>
-				</li>
-				<li>
-					<%= link_to "All tees", items_path %>
-				</li>
-				<li><a href="submit.html">Submit</a></li>
-			    <a href="#">
-                    <li class="cart">
-                        <img src="/assets/cart.png" alt="">
-                        Cart: 0 Items
-                    </li>
-				</a>
-			</ul>
-		</div>
-     </div>
-
-
-
-    <div id="main" role="main">
-        <%= yield %>
-    </div>
-
-        <footer>
-			<div class="footerContainer">
-				<div class="shopFor">
-					<h3>Shop for</h3>
-					<ul>
-						<li><a href="allTees.html">Guys</a></li>
-						<li><a href="allTees.html">Girls</a></li>
-					</ul>
-				</div>
-
-				<div class="additionalLinks">
-					<h3>Vote and Submit</h3>
-					<ul>
-						<li><a href="submit.html">Submit a design</a></li>
-						<li><a href="rules.html">Rules</a></li>
-						<li><a href="terms.html">Terms and Conditions</a></li>
-					</ul>
-				</div>
-
-				<div class="newletterSignUp">
-					<h3>Stay informed</h3>
-					<!-- Begin MailChimp Signup Form -->
-					<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-					<style type="text/css">
-						#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
-						/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-						   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-					</style>
-					<div id="mc_embed_signup">
-					<form action="http://myteeroom.us4.list-manage.com/subscribe/post?u=61a828b60f9e4cc861cc216b2&amp;id=403d58dc3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-					</form>
-					</div>
-
-					<!--End mc_embed_signup-->
-				</div>
-				<div class="clearfix"></div>
-			</div>
-    </footer>
 </body>
 </html>
-
