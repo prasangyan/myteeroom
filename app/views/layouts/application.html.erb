@@ -3,12 +3,61 @@
 <head>
   <title>Myteeroom</title>
   <%= stylesheet_link_tag    "application" %>
+ 	<%= stylesheet_link_tag "style" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+ 	<!-- Typekit code-->
+<!--	<script type="text/javascript" src="https://use.typekit.com/awm0wnp.js"></script>-->
+	<!--<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+
 </head>
 <body>
 
+	<div class="container">
+			<div class="header">
+
+			 <a href="<%= store_path %>"><img src="/assets/logo.png" alt=""></a>
+				<div class="nav">
+					<ul>
+						<li><%= link_to "Home", store_path %></li>
+						<li><a href="#">All tees</a></li>
+						<li><a href="">Submit a design</a></li>
+					</ul>
+				</div>
+
+				<div class="cart">
+					<a href="#">Cart: 10 Items</a> | <a href="#">Checkout</a>
+				</div>
+
+			</div>
 <%= yield %>
+	 <div class="footer">
+			<div class="row">
+				<div class="threeColumnfirstTeeColumn">
+					<h4>Shop for</h4>
+					<ul>
+						<li><a href="#">Guys</a></li>
+						<li><a href="">Girls</a></li>
+					</ul>
+
+				</div>
+
+				<div class="threeColumnsecondTeeColumn">
+					<h4>Submit design</h4>
+					<ul>
+						<li><a href="#">Submit a design</a></li>
+						<li><a href="#">Rules</a></li>
+						<li><a href="#">Terms and conditions</a></li>
+					</ul>
+				</div>
+
+				<div class="threeColumnthirdTeeColumn">
+					<h4>Stay informed</h4>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
 
 </body>
 </html>

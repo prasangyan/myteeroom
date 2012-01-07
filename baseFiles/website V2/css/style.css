@@ -165,11 +165,11 @@ H4
 	background: #FFFFFF;
 	color: #E71736;
 }
-.container .slider
+.slider
 {
 	float: left;
-	margin-top: 20px;
 	background: #FFFFFF;
+	margin-top: 20px;
 	width: 960px;
 }
 .container .slider IMG
@@ -186,13 +186,12 @@ H4
 .contentContainer
 {
 	width: 960px;
-	margin: 20px auto;
+	margin: 40px auto 20px;
 }
 .content
 {
 	background: #FFFFFF;
 	padding: 10px;
-	margin-top: 20px;
 }
 .content .firstRow
 {

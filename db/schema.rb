@@ -11,26 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120102173504) do
+ActiveRecord::Schema.define(:version => 20120106103804) do
 
-  create_table "items", :force => true do |t|
-    t.string   "title"
+  create_table "carts", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "thumbnail_file_name"
-    t.string   "thumbnail_content_type"
-    t.integer  "thumbnail_file_size"
-    t.datetime "thumbnail_updated_at"
-    t.string   "large_preview_file_name"
-    t.string   "large_preview_content_type"
-    t.integer  "large_preview_file_size"
-    t.datetime "large_preview_updated_at"
-    t.integer  "price"
   end
 
-  create_table "tee_creators", :force => true do |t|
-    t.string   "firstName"
-    t.string   "lastName"
+  create_table "line_items", :force => true do |t|
+    t.integer  "product_id"
+    t.integer  "cart_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "products", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "image_url"
+    t.decimal  "price",       :precision => 10, :scale => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end

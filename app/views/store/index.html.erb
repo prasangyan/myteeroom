@@ -1,0 +1,72 @@
+<div class="container">
+			<div class="slider">
+				<img src="assets/sliderImage1.png" alt="">
+				<div class="sliderImageDetails">
+					<h1>The stars</h1>
+					<p>Look into the stars to see something. This is a really lohng line to see how this looks and then decide how to use this</p>
+				</div>
+			</div>
+		 </div>
+
+		<div class="clearfix"></div>
+
+
+<div class="contentContainer">
+
+		<div class="content">
+			<div class="row">
+				<div class="firstRow">
+					<h3>What is myTeeroom</h3>
+					<p>myTeeroom is online store for beautiful Tees. At myTeeroom you can also submit your own designs and let your friends vote on it. We will then print the most popular designs</p>
+				</div>
+
+
+
+				<div class="secondRow">
+					<h3>Join myTeeroom</h3>
+					<p>This is a test to see how this looks and then decide how to use this</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+
+<% number_of_products = @products.length %>
+<% @products.each_index do |product_number| %>
+
+			<div class="row">
+
+				<h3 class="popularTeeHeading">Popular tees</h3>
+				<div class="threeColumnfirstTeeColumn">
+					<a href="#"><%= image_tag(@products[product_number].image_url) %></a>
+				</div>
+
+			 	<% product_number = product_number + 1 %>
+				<% if product_number >= number_of_products %>
+					<div class="threeColumnsecondTeeColumn">
+					<a href="#"><img src="images/tShirtPreview3.jpg" alt=""></a>
+					 <div class="threeColumnthirdTeeColumn">
+					<a href="#"><img src="images/tShirtPreview4.jpg" alt=""></a>
+				</div>
+				</div>
+
+					<div class="clearfix"></div>
+					</div>
+				</div>
+				<% break %>
+				<% else %>
+				<% end %>
+
+
+				<div class="threeColumnsecondTeeColumn">
+					<a href="#"><img src="images/tShirtPreview3.jpg" alt=""></a>
+				</div>
+
+				<div class="threeColumnthirdTeeColumn">
+					<a href="#"><img src="images/tShirtPreview4.jpg" alt=""></a>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+
+		</div>
+<% end %>
