@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67f372a7-bf15-4a9d-82af-37424dd9acc2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/teePreview2.jpg" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\.idea\projectCodeStyle.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\alert-overlay.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\cart.png" afterPath="" />
@@ -11,6 +10,7 @@
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\slider2.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview3.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview3Large.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview5.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview6.jpg" afterPath="" />
@@ -71,16 +71,21 @@
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\tShirtPreview3Large.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview3.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview5.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview6.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\toystory.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\up.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\assets\walle.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\background.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\sliderImage1.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\tShirtPreview3.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\tShirtPreview3Large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\tShirtPreview4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\tee2Large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\images\tee2small.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\system\large_previews\1\original\tShirtPreview3Large.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\system\thumbnails\1\original\tShirtPreview3.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\public\system\thumbnails\2\original\tShirtPreview.jpg" afterPath="" />
@@ -158,32 +163,6 @@
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\website\test\qunit\qunit.css" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\website\test\qunit\qunit.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\website\test\tests.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myteeroom.iml" afterPath="$PROJECT_DIR$/.idea/myteeroom.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baseFiles/logo/logoV2.ai" afterPath="$PROJECT_DIR$/baseFiles/logo/logoV2.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baseFiles/website V2/images/logo.png" afterPath="$PROJECT_DIR$/baseFiles/website V2/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baseFiles/website mockup/layout.psd" afterPath="$PROJECT_DIR$/baseFiles/website mockup/layout.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baseFiles/website V2/css/style.css" afterPath="$PROJECT_DIR$/baseFiles/website V2/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baseFiles/website V2/index.html" afterPath="$PROJECT_DIR$/baseFiles/website V2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\app\assets\images\teeImages\tShirtPreview3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/tShirtPreview3.jpg" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\assets\teeImages\tShirtPreview3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/teePreview1.jpg" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\images\background.png" afterPath="$PROJECT_DIR$/app/assets/images/background.png" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\images\sliderImage1.png" afterPath="$PROJECT_DIR$/app/assets/images/sliderImage1.png" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\images\tShirtPreview4.jpg" afterPath="$PROJECT_DIR$/app/assets/images/tShirtPreview4.jpg" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\images\tee2Large.jpg" afterPath="$PROJECT_DIR$/app/assets/images/tee2Large.jpg" />
-      <change type="MOVED" beforePath="D:\Work\Design\myteeroom\public\images\tee2small.jpg" afterPath="$PROJECT_DIR$/app/assets/images/tee2small.jpg" />
     </list>
     <ignored path="myteeroom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -990,7 +969,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
