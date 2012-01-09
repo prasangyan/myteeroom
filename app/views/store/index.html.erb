@@ -1,72 +1,135 @@
-<div class="container">
-			<div class="slider">
-				<img src="assets/sliderImage1.png" alt="">
-				<div class="sliderImageDetails">
-					<h1>The stars</h1>
-					<p>Look into the stars to see something. This is a really lohng line to see how this looks and then decide how to use this</p>
-				</div>
-			</div>
-		 </div>
-
-		<div class="clearfix"></div>
-
-
-<div class="contentContainer">
-
-		<div class="content">
-			<div class="row">
-				<div class="firstRow">
-					<h3>What is myTeeroom</h3>
-					<p>myTeeroom is online store for beautiful Tees. At myTeeroom you can also submit your own designs and let your friends vote on it. We will then print the most popular designs</p>
-				</div>
-
-
-
-				<div class="secondRow">
-					<h3>Join myTeeroom</h3>
-					<p>This is a test to see how this looks and then decide how to use this</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-
-
-<% number_of_products = @products.length %>
-<% @products.each_index do |product_number| %>
-
-			<div class="row">
-
-				<h3 class="popularTeeHeading">Popular tees</h3>
-				<div class="threeColumnfirstTeeColumn">
-					<a href="#"><%= image_tag(@products[product_number].image_url) %></a>
-				</div>
-
-			 	<% product_number = product_number + 1 %>
-				<% if product_number >= number_of_products %>
-					<div class="threeColumnsecondTeeColumn">
-					<a href="#"><img src="images/tShirtPreview3.jpg" alt=""></a>
-					 <div class="threeColumnthirdTeeColumn">
-					<a href="#"><img src="images/tShirtPreview4.jpg" alt=""></a>
-				</div>
-				</div>
-
-					<div class="clearfix"></div>
-					</div>
-				</div>
-				<% break %>
-				<% else %>
-				<% end %>
-
-
-				<div class="threeColumnsecondTeeColumn">
-					<a href="#"><img src="images/tShirtPreview3.jpg" alt=""></a>
-				</div>
-
-				<div class="threeColumnthirdTeeColumn">
-					<a href="#"><img src="images/tShirtPreview4.jpg" alt=""></a>
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-
-		</div>
-<% end %>
+<!-- CONTENT -->
+  <div id="content_holder" class="fixed">
+    <div class="inner">
+      <div id="content">
+        <div class="box featured-box">
+          <h2 class="heading-title"><span>Featured Products</span></h2>
+          <div class="box-content">
+            <ul id="myRoundabout">
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee1.jpg" %> </a>
+                  <h3>Flaming heart</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee2.jpg" %></a>
+                  <h3>The star</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee3.jpg" %></a>
+                  <h3>Stay hidden</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee4.jpg" %></a>
+                  <h3>Flowers of the samurai</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee5.jpg" %></a>
+                  <h3>Flowers</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee6.jpg" %></a>
+                  <h3>Ninja love</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee7.jpg" %></a>
+                  <h3>Wild on the inside</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+              <li>
+                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee8.jpg" %></a>
+                  <h3>Skull of colors</h3>
+                </div>
+                <span class="pricetag">RM 59.95</span> </li>
+            </ul>
+            <a href="#" class="previous_round">Previous</a> <a href="#" class="next_round">Next</a> </div>
+        </div>
+        <div class="box">
+          <h2 class="heading-title"><span>Welcome to myteeroom</span></h2>
+          <div class="box-content">
+            <p>
+						 Welcome to myteeroom, a place to get beautiful tees. At myteeroom you can also submit your own designs
+						 and let your friends vote on it. We will then print the most popular designs
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="banner">
+            <div><%= image_tag ("banner1.jpg") %></div>
+            <div><%= image_tag ("banner2.jpg")%></div>
+          </div>
+        </div>
+        <div class="box">
+          <h2 class="heading-title"><span>Latest Products</span></h2>
+          <div class="box-content">
+            <div class="box-product fixed">
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+							 <div class="pricetag_small"> <span class="old_price">RM 80</span> <span class="new_price">RM 59
+							 .95</span> </div>
+							 <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 147,99</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 472,99</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 219,99</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 101,99</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 56,67</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic3.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 21,50</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic2.jpg")%></span> </a>
+                <div class="pricetag_small"> <span class="price">$ 176,99</span> </div>
+                <div class="info">
+                  <h3>Very long product name goes here</h3>
+                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
+                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF CONTENT --> 
