@@ -7,10 +7,16 @@ gem 'rails', '3.1.1'
 
 gem "execjs"
 
-gem "therubyracer"
+# Removing this gem because it does not seem to be supported on Windows
+# gem "therubyracer"
+
+# Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+# when trying to install libv8.
+# To resolve this I installed python, put the python folder into the path variable and ran gem install libv8 as an admin
+# gem 'libv8', '3.3.10.4'
 
 gem "rake", "0.8.7"
-#gem "mysql"
+gem "mysql"
 
 # Un comment this if this is the dev env
 gem 'paperclip', :path => 'vendor/gems/paperclip'

@@ -1,0 +1,193 @@
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using multi_json (1.0.4) 
+Using activesupport (3.1.1) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.1) 
+Using erubis (2.7.0) 
+Using rack (1.3.6) 
+Using rack-cache (1.1) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.1) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.1.1) 
+Using activeresource (3.1.1) 
+Using ansi (1.4.1) 
+Using authlogic (3.1.0) 
+Using bundler (1.0.21) 
+Using cocaine (0.2.1) 
+Using coffee-script-source (1.2.0) 
+Using execjs (1.2.13) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.4) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.1.1) 
+Using coffee-rails (3.1.1) 
+Using jquery-rails (1.0.19) 
+Using libv8 (3.3.10.4) 
+Using minitest (2.10.0) 
+Using paperclip (2.4.5) from source at vendor/gems/paperclip 
+Using pg (0.12.2) 
+Using rails (3.1.1) 
+Using sass (3.1.12) 
+Using sass-rails (3.1.5) 
+Installing therubyracer (0.9.9) with native extensions 
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+        D:/Ruby192/bin/ruby.exe extconf.rb 
+creating Makefile
+
+make
+D:/Ruby192/bin/ruby -e "puts 'EXPORTS', 'Init_v8'"  > v8-i386-mingw32.def
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o rr.o -c rr.cpp
+rr.cpp: In function 'VALUE rr_define_finalizer(VALUE, void*, VALUE)':
+rr.cpp:48:1: warning: no return statement in function returning non-void
+In file included from rr.cpp:3:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Value, VALUE = long unsigned int]':
+rr.cpp:159:37:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8.o -c v8.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_array.o -c v8_array.cpp
+In file included from v8_array.cpp:1:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Array, VALUE = long unsigned int]':
+v8_array.cpp:13:36:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_callbacks.o -c v8_callbacks.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_context.o -c v8_context.cpp
+In file included from v8_context.cpp:2:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Context, VALUE = long unsigned int]':
+v8_context.cpp:15:39:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::ObjectTemplate, VALUE = long unsigned int]':
+v8_context.cpp:22:143:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Value, VALUE = long unsigned int]':
+v8_context.cpp:23:110:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_date.o -c v8_date.cpp
+In file included from v8_date.cpp:4:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Date, VALUE = long unsigned int]':
+v8_date.cpp:21:52:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_debug.o -c v8_debug.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_exception.o -c v8_exception.cpp
+In file included from v8_exception.cpp:3:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::StackTrace, VALUE = long unsigned int]':
+v8_exception.cpp:48:44:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::StackFrame, VALUE = long unsigned int]':
+v8_exception.cpp:68:43:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_exception.cpp: At global scope:
+v8_exception.cpp:10:24: warning: '<unnamed>::stack' defined but not used
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_external.o -c v8_external.cpp
+In file included from v8_external.cpp:4:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::External, VALUE = long unsigned int]':
+v8_external.cpp:51:60:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_external.cpp: At global scope:
+v8_external.cpp:10:9: warning: '<unnamed>::references' defined but not used
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_function.o -c v8_function.cpp
+In file included from v8_function.cpp:5:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Function, VALUE = long unsigned int]':
+v8_function.cpp:13:40:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Array, VALUE = long unsigned int]':
+v8_function.cpp:23:55:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::String, VALUE = long unsigned int]':
+v8_function.cpp:49:51:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_handle.o -c v8_handle.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_locker.o -c v8_locker.cpp
+v8_locker.cpp: In function 'VALUE<unnamed>::Lock::Delete(VALUE)':
+v8_locker.cpp:45:5: warning: no return statement in function returning non-void
+v8_locker.cpp: In function 'VALUE<unnamed>::Unlock::Delete(VALUE)':
+v8_locker.cpp:85:5: warning: no return statement in function returning non-void
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_message.o -c v8_message.cpp
+In file included from v8_message.cpp:2:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Message, VALUE = long unsigned int]':
+v8_message.cpp:10:38:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_object.o -c v8_object.cpp
+In file included from v8_object.cpp:1:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Object, VALUE = long unsigned int]':
+v8_object.cpp:17:39:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_script.o -c v8_script.cpp
+In file included from v8_script.cpp:2:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Script, VALUE = long unsigned int]':
+v8_script.cpp:25:56:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_string.o -c v8_string.cpp
+In file included from v8_string.cpp:3:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::String, VALUE = long unsigned int]':
+v8_string.cpp:13:38:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_template.o -c v8_template.cpp
+In file included from v8_template.cpp:2:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Template, VALUE = long unsigned int]':
+v8_template.cpp:42:39:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::ObjectTemplate, VALUE = long unsigned int]':
+v8_template.cpp:45:45:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::FunctionTemplate, VALUE = long unsigned int]':
+v8_template.cpp:48:47:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Data, VALUE = long unsigned int]':
+v8_template.cpp:54:53:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_try_catch.o -c v8_try_catch.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_v8.o -c v8_v8.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_value.o -c v8_value.cpp
+In file included from v8_value.cpp:1:0:
+v8_handle.h: In function 'v8::Persistent<T>& rr_v8_handle(VALUE) [with T = v8::Value, VALUE = long unsigned int]':
+v8_value.cpp:10:37:   instantiated from here
+v8_handle.h:43:71: warning: dereferencing type-punned pointer will break strict-aliasing rules
+g++.exe: unrecognized option '-rdynamic'
+g++ -I. -ID:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/v8/include -ID:/Ruby192/include/ruby-1.9.1/i386-mingw32 -I/D/Ruby192/include/ruby-1.9.1/ruby/backward -I/D/Ruby192/include/ruby-1.9.1 -I.   -Wall -g -rdynamic -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long   -o v8_weakref.o -c v8_weakref.cpp
+g++.exe: unrecognized option '-rdynamic'
+g++ -shared -s -o v8.so rr.o v8.o v8_array.o v8_callbacks.o v8_context.o v8_date.o v8_debug.o v8_exception.o v8_external.o v8_function.o v8_handle.o v8_locker.o v8_message.o v8_object.o v8_script.o v8_string.o v8_template.o v8_try_catch.o v8_v8.o v8_value.o v8_weakref.o -LD:/Ruby192/lib/ruby/gems/1.9.1/gems/libv8-3.3.10.4/lib/libv8/build/v8 -L. -LD:/Ruby192/lib -L. -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tk\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tcl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libyaml\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\pdcurses\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\openssl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\zlib\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\iconv\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\gdbm\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libffi\\lib  -Wl,--enable-auto-image-base,--enable-auto-import v8-i386-mingw32.def  -lmsvcrt-ruby191  -lshell32 -lws2_32   -lv8 -lpthread
+d:/devkit/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/ld.exe: cannot find -lv8
+d:/devkit/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2: ld returned 1 exit status
+make: *** [v8.so] Error 1
+
+
+Gem files will remain installed in D:/Ruby192/lib/ruby/gems/1.9.1/gems/therubyracer-0.9.9 for inspection.
+Results logged to D:/Ruby192/lib/ruby/gems/1.9.1/gems/therubyracer-0.9.9/ext/v8/gem_make.out
+An error occured while installing therubyracer (0.9.9), and Bundler cannot continue.
+Make sure that `gem install therubyracer -v '0.9.9'` succeeds before bundling.
