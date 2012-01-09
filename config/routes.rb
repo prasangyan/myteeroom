@@ -1,5 +1,12 @@
 Myteeroom::Application.routes.draw do
+
+  resources :user_sessions
+
+  resources :users
+
   resources :line_items
+
+  resources :items
 
   resources :carts
 
@@ -58,7 +65,12 @@ Myteeroom::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-	root :to => 'store#index', :as => 'store'
+	match "/login" , :to => "user_sessions#new"  , :as => "login"
+  match "/logout" , :to => "user_sessions#destroy" , :as => "logout"
+  match "/register", :to => "users#new", :as => "register"
+  match "/", :to => "store#index", :as => "root"
+
+  root :to => 'store#index', :as => 'store'
 
   # See how all your routes lay out with "rake routes"
 
