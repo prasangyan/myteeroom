@@ -1,3 +1,0 @@
-class ProductController < ApplicationController
-
-end
