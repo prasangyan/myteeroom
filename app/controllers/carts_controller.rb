@@ -80,4 +80,21 @@ class CartsController < ApplicationController
       format.json { head :ok }
     end
   end
+
+  def add_to_cart
+    unless params[:product_id]
+      unless session[:cart].nil?
+        cart = []
+        cart.push(params[:product_id])
+        session[:cart] = cart
+      else
+        cart = session[:cart]
+        cart.push(params[:product_id])
+        session[:cart] = cart
+      end
+      render :text => "added"
+    end
+    render :text => "invalid parameters passed."
+  end
+
 end

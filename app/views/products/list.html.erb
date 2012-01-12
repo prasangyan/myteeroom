@@ -1,0 +1,14 @@
+<table>
+<% @products.each do |product| %>
+
+    <tr>
+      <td><%= product.title %></td>
+      <td><%= product.description %></td>
+      <td><%= product.price %> </td>
+      <td><%= product.content_type %></td>
+      <td><%= product.length %></td>
+      <td><%= product.image_id %></td>
+      <td><img src="/image/<%= product.id %>" alt="" ></td>
+    </tr>
+<% end %>
+</table>
