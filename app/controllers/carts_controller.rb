@@ -82,17 +82,18 @@ class CartsController < ApplicationController
   end
 
   def add_to_cart
-    unless params[:product_id]
+    unless params[:product_id].nil?
       unless session[:cart].nil?
-        cart = []
+        cart = session[:cart]
         cart.push(params[:product_id])
         session[:cart] = cart
       else
-        cart = session[:cart]
+        cart = []
         cart.push(params[:product_id])
         session[:cart] = cart
       end
       render :text => "added"
+      return
     end
     render :text => "invalid parameters passed."
   end
