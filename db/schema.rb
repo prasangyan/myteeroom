@@ -18,18 +18,22 @@ ActiveRecord::Schema.define(:version => 20120109072210) do
     t.datetime "updated_at"
   end
 
+  create_table "products", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.string  "image_url"
+    t.decimal "price"
+    t.binary  "image"
+    t.string  "file_name"
+    t.string  "content_type"
+    t.integer "length"
+    t.string  "image_id"
+    t.timestamps
+  end
+
   create_table "line_items", :force => true do |t|
     t.integer  "product_id"
     t.integer  "cart_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "products", :force => true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.string   "image_url"
-    t.decimal  "price",       :precision => 10, :scale => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -69,7 +69,9 @@ Myteeroom::Application.routes.draw do
   match "/logout" , :to => "user_sessions#destroy" , :as => "logout"
   match "/register", :to => "users#new", :as => "register"
   match "/", :to => "store#index", :as => "root"
-
+  match "/image/:id", :to => "products#get_image", :as => "get_image"
+  match "/list", :to => "products#list", :as => "list"
+  match "/add_to_cart/:product_id", :to => "carts#add_to_cart", :as => "add_to_cart"
   root :to => 'store#index', :as => 'store'
 
   # See how all your routes lay out with "rake routes"
