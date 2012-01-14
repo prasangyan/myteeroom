@@ -23,7 +23,7 @@ group :production do
 end
 
 # Un comment this if this is the dev env
-gem 'paperclip', :path => 'vendor/gems/paperclip'
+gem 'paperclip' # :path => 'vendor/gems/paperclip'
 
 gem 'minitest'
 

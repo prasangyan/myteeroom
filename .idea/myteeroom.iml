@@ -48,7 +48,7 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="paperclip" version="0" bound="GREATER_OR_EQUAL" url="file://$MODULE_DIR$/vendor/gems/paperclip" git="false" path="true" doRequire="true" />
+        <dependency name="paperclip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
