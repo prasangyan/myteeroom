@@ -1,0 +1,9 @@
+development:
+	bucket: teeImages
+	access_key: AKIAIUMKS4BL5Q3N63XQ
+	secret_access_key: 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
+
+production:
+  bucket: teeImages
+  access_key_id: AKIAIUMKS4BL5Q3N63XQ
+  secret_access_key: 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

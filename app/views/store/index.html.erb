@@ -68,14 +68,7 @@
           <h2 class="heading-title"><span>Latest Products</span></h2>
           <div class="box-content">
             <div class="box-product fixed">
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
-							 <div class="pricetag_small"> <span class="old_price">RM 80</span> <span class="new_price">RM 59
-							 .95</span> </div>
-							 <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
+
               <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
                 <div class="pricetag_small"> <span class="price">$ 147,99</span> </div>
                 <div class="info">
@@ -83,55 +76,10 @@
                   <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
                   <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
               </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 472,99</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 219,99</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 101,99</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 56,67</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic3.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 21,50</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
-              <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic2.jpg")%></span> </a>
-                <div class="pricetag_small"> <span class="price">$ 176,99</span> </div>
-                <div class="info">
-                  <h3>Very long product name goes here</h3>
-                  <p>Suspendisse eget nunc lorem. Sed convallis mattis est, quis dignissim magna varius et.</p>
-                  <a class="add_to_cart_small" href="#">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
-              </div>
+
               <% @products.each do |product| %>
                 <div class="prod_hold">
-                  <a class="wrap_link" href="product.html">
-                    <span class="image">
-                      <image src='/image/<%= product.id %>' style="width:200px;height:200px;" />
-                    </span>
-                  </a>
+								 	<%= link_to content_tag(:span,(image_tag product.homePreview), :class => "image"), product,:class => "wrap_link" %>
                   <div class="pricetag_small">
                     <span class="price">$ <%= product.price %></span>
                   </div>

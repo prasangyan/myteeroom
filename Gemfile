@@ -17,13 +17,16 @@ gem "execjs"
 
 gem "rake", "0.8.7"
 gem "mysql"
+gem "aws-s3", :require => "aws/s3"
+gem "aws-sdk"
+
 
 group :production do
   gem "pg"
 end
 
 # Un comment this if this is the dev env
-gem 'paperclip', :path => 'vendor/gems/paperclip'
+gem 'paperclip', '2.3.1.1'
 
 gem 'minitest'
 

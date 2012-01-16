@@ -1,4 +1,6 @@
 Myteeroom::Application.configure do
+ 	Paperclip.options[:command_path] = "D:/ImageMagick/"
+	Paperclip.options[:swallow_stderr] = false
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on

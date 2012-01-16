@@ -31,15 +31,15 @@ class ProductsController < ApplicationController
   # POST /products
   # POST /products.json
   def create
-    @product = Product.new(:title => params[:product][:title], :description => params[:product][:description], :price => params[:product][:price])
+	 	@product = Product.new(params[:product])
     respond_to do |format|
-      @product.uploaded_file=params[:image]
-      if @product.save
-        flash[:notice] = "Product was successfully created."
-        redirect_to products_url
-      else
-        render :action => "new",  :layout => false
-      end
+		 	if @product.save
+				format.html {redirect_to @product, notice: 'Product successfully created'}
+				format.json {render json: @product, status: :created, location: @product}
+			 else
+				format.html { render action: "new"}
+				format.json { render json: @product.errors, status: :unprocessable_entity}
+			 end
     end
   end
   # PUT /products/1

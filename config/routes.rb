@@ -14,7 +14,11 @@ Myteeroom::Application.routes.draw do
 
   resources :products
 
-  get "home/index"
+	resources :store
+
+	get "home/index"
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
