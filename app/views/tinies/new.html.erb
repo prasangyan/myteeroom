@@ -1,0 +1,31 @@
+<h1>New tiny</h1>
+
+  <form action="/tinies/create">
+  <% if @tiny.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tiny.errors.count, "error") %> prohibited this tiny from being saved:</h2>
+
+      <ul>
+      <% @tiny.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="field">
+    <label>Small Image URL</label> <br />
+    <input type="text" value="<%= @tiny.small_image_url %>" name="small_image_url" />
+  </div>
+  <div class="field">
+    <label>Large Image URL</label> <br />
+    <input type="text" value="<%= @tiny.large_image_url %>" name="large_image_url" />
+  </div>
+  <div class="field">
+    <input type="hidden" value="<%= @tiny.product_id %>" name="id" />
+  </div>
+  <div class="actions">
+    <input type="submit" value="Create">
+  </div>
+  </form>
+
+<%= link_to 'Back', :controller => "products", :action => "index" %>

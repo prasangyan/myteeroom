@@ -2,13 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc9839e-6b6f-4866-9100-b8ef044093c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/list.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20120114064804_add_attachment_image_to_product.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/Appraisals" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/cucumber/paperclip_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/basic_integration.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/rake_tasks.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/step_definitions/attachment_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/step_definitions/html_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/step_definitions/rails_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/step_definitions/s3_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/step_definitions/web_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/env.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/fakeweb.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/fixtures/.boot_config.rb.swo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/fixtures/boot_config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/fixtures/gemfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/fixtures/preinitializer.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/paths.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/rails.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/features/support/selectors.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/gemfiles/rails2.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/gemfiles/rails3.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/gemfiles/rails3_1.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/generators/paperclip/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/generators/paperclip/paperclip_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/generators/paperclip/templates/paperclip_migration.rb.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/init.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/generators/paperclip/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/generators/paperclip/paperclip_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/generators/paperclip/templates/paperclip_migration.rb.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/attachment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/callback_compatibility.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/geometry.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/interpolations.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/iostream.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/matchers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/matchers/have_attached_file_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/matchers/validate_attachment_content_type_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/matchers/validate_attachment_presence_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/matchers/validate_attachment_size_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/missing_attachment_styles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/processor.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/railtie.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/storage.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/storage/filesystem.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/storage/fog.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/storage/s3.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/style.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/thumbnail.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/upfile.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/url_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/paperclip/version.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/lib/tasks/paperclip.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/paperclip.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/rails/init.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/shoulda_macros/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/attachment_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/12k.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/50x50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/5k.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/animated.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/bad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/fog.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/question_mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/s3.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/spaced file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/text.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/twopage.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/fixtures/uppercase.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/geometry_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/integration_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/interpolations_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/iostream_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/matchers/have_attached_file_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/matchers/validate_attachment_content_type_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/matchers/validate_attachment_presence_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/matchers/validate_attachment_size_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/paperclip_missing_attachment_styles_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/paperclip_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/processor_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/schema_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/storage/filesystem_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/storage/fog_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/storage/s3_live_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/storage/s3_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/style_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/support/mock_attachment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/support/mock_interpolator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/support/mock_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/support/mock_url_generator_builder.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/thumbnail_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/upfile_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/paperclip/test/url_generator_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gems/thoughtbot-paperclip-v2.4.5-62-gc34a9fb.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/Appraisals" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/NEWS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/cucumber/paperclip_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/basic_integration.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/rake_tasks.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/step_definitions/attachment_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/step_definitions/html_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/step_definitions/rails_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/step_definitions/s3_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/step_definitions/web_steps.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/env.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/fakeweb.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/fixtures/.boot_config.rb.swo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/fixtures/boot_config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/fixtures/gemfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/fixtures/preinitializer.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/paths.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/rails.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/features/support/selectors.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/gemfiles/rails2.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/gemfiles/rails3.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/gemfiles/rails3_1.gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/generators/paperclip/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/generators/paperclip/paperclip_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/generators/paperclip/templates/paperclip_migration.rb.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/init.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/generators/paperclip/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/generators/paperclip/templates/paperclip_migration.rb.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/attachment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/callback_compatibility.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/geometry.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/interpolations.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/iostream.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/matchers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/matchers/have_attached_file_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_content_type_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_presence_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_size_matcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/missing_attachment_styles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/processor.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/railtie.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/storage.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/storage/filesystem.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/storage/fog.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/storage/s3.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/style.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/thumbnail.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/upfile.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/url_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/paperclip/version.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/lib/tasks/paperclip.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/paperclip.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/rails/init.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/shoulda_macros/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/attachment_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/12k.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/50x50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/5k.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/animated.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/bad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/fog.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/question?mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/s3.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/spaced file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/text.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/twopage.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/fixtures/uppercase.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/geometry_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/integration_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/interpolations_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/iostream_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/matchers/have_attached_file_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/matchers/validate_attachment_content_type_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/matchers/validate_attachment_presence_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/matchers/validate_attachment_size_matcher_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/paperclip_missing_attachment_styles_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/paperclip_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/processor_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/schema_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/storage/filesystem_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/storage/fog_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/storage/s3_live_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/storage/s3_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/style_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/support/mock_attachment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/support/mock_interpolator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/support/mock_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/support/mock_url_generator_builder.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/thumbnail_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/upfile_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/paperclip/test/url_generator_test.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="$PROJECT_DIR$/app/views/tinies/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myteeroom.iml" afterPath="$PROJECT_DIR$/.idea/myteeroom.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="$PROJECT_DIR$/app/models/product.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/list.html.erb" afterPath="$PROJECT_DIR$/app/views/products/list.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/new.html.erb" afterPath="$PROJECT_DIR$/app/views/products/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120105133305_create_products.rb" afterPath="$PROJECT_DIR$/db/migrate/20120105133305_create_products.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="myteeroom.iws" />
@@ -32,89 +246,7 @@
     <favorites_list name="myteeroom" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="products_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="3" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20120114064804_add_attachment_image_to_product.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20120114064804_add_attachment_image_to_product.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/product.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="33" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/products/list.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="11" selection-start="565" selection-end="565" vertical-scroll-proportion="0.31866464">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="45" selection-start="8548" selection-end="8548" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="19" selection-start="2946" selection-end="2946" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -130,20 +262,20 @@
       <list>
         <option value="$PROJECT_DIR$/db/migrate/20120105133305_create_products.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/public/javascripts/jquery-1.7.1.min.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/cart.js" />
-        <option value="$PROJECT_DIR$/public/javascript/cart.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/cart.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/store/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/cart.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/app/views/products/list.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/product.rb" />
+        <option value="$PROJECT_DIR$/app/models/tiny.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120119064616_create_tinies.rb" />
+        <option value="$PROJECT_DIR$/app/views/tinies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/tinies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tinies/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tinies/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tinies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/tinies/new.html.erb" />
       </list>
     </option>
   </component>
@@ -180,9 +312,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,12 +334,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -343,6 +480,13 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -373,13 +517,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
@@ -452,6 +589,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -464,16 +602,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1442" height="855" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26455787" sideWeight="0.6657534" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27174693" sideWeight="0.4890411" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33424658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5109589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -517,102 +655,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.2247191" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.22123894" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="587" selection-end="587" vertical-scroll-proportion="0.51282054" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="12" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/store_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="102" selection-end="111" vertical-scroll-proportion="0.08547009" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="45" selection-start="8548" selection-end="8548" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="26" selection-end="46" vertical-scroll-proportion="0.044247787">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="19" selection-start="2946" selection-end="2946" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120114064804_add_attachment_image_to_product.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120119064616_create_tinies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="767" selection-end="767" vertical-scroll-proportion="0.9219858">
+        <state line="6" column="27" selection-start="200" selection-end="200" vertical-scroll-proportion="0.12820514">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/tiny.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.57459676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="3" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
+        <state line="1" column="2" selection-start="34" selection-end="34" vertical-scroll-proportion="0.021367522">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/product.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+        <state line="2" column="15" selection-start="72" selection-end="72" vertical-scroll-proportion="0.042735044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/list.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/tinies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="565" selection-end="565" vertical-scroll-proportion="0.31866464">
+        <state line="15" column="58" selection-start="325" selection-end="325" vertical-scroll-proportion="0.42213884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="110" selection-start="812" selection-end="812" vertical-scroll-proportion="0.8373786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="4" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tinies/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tinies/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="0" selection-end="937" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tinies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="17" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.40058056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tinies/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.6858407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="157" selection-end="157" vertical-scroll-proportion="0.10885341">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="31" selection-start="1658" selection-end="1673" vertical-scroll-proportion="0.4871795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="58" selection-end="58" vertical-scroll-proportion="0.06410257">
           <folding />
         </state>
       </provider>

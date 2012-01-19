@@ -3,16 +3,12 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @products }
-    end
+    render :layout => false
   end
   # GET /products/1
   # GET /products/1.json
   def show
     @product = Product.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @product }
@@ -27,17 +23,18 @@ class ProductsController < ApplicationController
   # GET /products/1/edit
   def edit
     @product = Product.find(params[:id])
+    render :layout => false
   end
   # POST /products
   # POST /products.json
   def create
-    @product = Product.new(:title => params[:product][:title], :description => params[:product][:description], :price => params[:product][:price])
+    @product = Product.new(:title => params[:product][:title], :description => params[:product][:description], :price => params[:product][:price], :image_url => params[:product][:image_url] )
     respond_to do |format|
-      @product.uploaded_file=params[:image]
       if @product.save
         flash[:notice] = "Product was successfully created."
         redirect_to products_url
       else
+        puts @product.errors
         render :action => "new",  :layout => false
       end
     end
@@ -46,13 +43,12 @@ class ProductsController < ApplicationController
   # PUT /products/1.json
   def update
     @product = Product.find(params[:id])
-
     respond_to do |format|
       if @product.update_attributes(params[:product])
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { head :ok }
       else
-        format.html { render action: "edit" }
+        format.html { render action: "edit", :layout => false }
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
@@ -62,25 +58,6 @@ class ProductsController < ApplicationController
   def destroy
     @product = Product.find(params[:id])
     @product.destroy
-    respond_to do |format|
-      format.html { redirect_to products_url }
-      format.json { head :ok }
-    end
-  end
-  def get_image
-    unless params[:id].nil?
-      product = Product.find_by_id(params[:id])
-      unless product.nil?
-        send_data product.image, :filename => product.file_name, :type => product.content_type
-      else
-        render :text => nil
-      end
-    else
-      render :text => nil
-    end
-  end
-  def list
-    @products = Product.all
-    render :layout => false
+    redirect_to products_url
   end
 end
