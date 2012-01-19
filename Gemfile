@@ -25,9 +25,12 @@ group :production do
   gem "pg"
 end
 
+<<<<<<< HEAD
 # Un comment this if this is the dev env
 gem 'paperclip', '2.3.1.1'
 
+=======
+>>>>>>> feaca30043634081e1c9f9204c1c38f9478fe1d8
 gem 'minitest'
 
 gem 'authlogic'

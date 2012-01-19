@@ -1,0 +1,2 @@
+module TiniesHelper
+end

@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20120114191610) do
+=======
+ActiveRecord::Schema.define(:version => 20120119064616) do
+>>>>>>> feaca30043634081e1c9f9204c1c38f9478fe1d8
 
   create_table "carts", :force => true do |t|
     t.datetime "created_at"
@@ -19,8 +23,37 @@ ActiveRecord::Schema.define(:version => 20120114191610) do
   end
 
   create_table "line_items", :force => true do |t|
+<<<<<<< HEAD
+=======
     t.integer  "product_id"
     t.integer  "cart_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "products", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "image_url"
+    t.decimal  "price",              :precision => 10, :scale => 0
+    t.binary   "image"
+    t.string   "file_name"
+    t.string   "content_type"
+    t.integer  "length"
+    t.string   "image_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+  end
+
+  create_table "tinies", :force => true do |t|
+    t.string   "small_image_url"
+    t.string   "large_image_url"
+>>>>>>> feaca30043634081e1c9f9204c1c38f9478fe1d8
+    t.integer  "product_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

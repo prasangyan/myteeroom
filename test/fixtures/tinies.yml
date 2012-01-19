@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  small_image_url: MyString
+  large_image_url: MyString
+
+two:
+  small_image_url: MyString
+  large_image_url: MyString

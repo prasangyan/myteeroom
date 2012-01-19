@@ -1,0 +1,23 @@
+<h1>Listing tinies</h1>
+
+<table>
+  <tr>
+    <th>Small image url</th>
+    <th>Large image url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tinies.each do |tiny| %>
+  <tr>
+    <td><%= tiny.small_image_url %></td>
+    <td><%= tiny.large_image_url %></td>
+    <td><%= link_to 'Edit', "/tinies/edit/" + tiny.id.to_s %></td>
+    <td><%= link_to 'Destroy', "/tinies/destroy/" + tiny.id.to_s , confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+
+
