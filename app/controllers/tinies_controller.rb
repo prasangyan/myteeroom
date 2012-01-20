@@ -32,7 +32,9 @@ class TiniesController < ApplicationController
   # POST /tinies
   # POST /tinies.json
   def create
-    @tiny = Tiny.new(:small_image_url => params[:small_image_url],:large_image_url => params[:large_image_url], :product_id => params[:id])
+    @tiny = Tiny.new(:small_image_url => params[:small_image_url],:large_image_url => params[:large_image_url],
+										 :tinyPreview => params[:tinyPreview],
+										 :product_id => params[:id])
     respond_to do |format|
       if @tiny.save
         redirect_to :controller => "products" , :action => "index"
@@ -47,7 +49,8 @@ class TiniesController < ApplicationController
   # PUT /tinies/1.json
   def update
     @tiny = Tiny.find(params[:id])
-    if @tiny.update_attributes(:small_image_url => params[:small_image_url],:large_image_url => params[:large_image_url])
+    if @tiny.update_attributes(:small_image_url => params[:small_image_url],
+															 :large_image_url => params[:large_image_url], :tinyPreview => params[:tinyPreview])
       redirect_to :controller => "products", :layout => false, notice: 'Tiny was successfully updated.'
     else
       render action: "edit"

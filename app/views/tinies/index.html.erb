@@ -13,6 +13,8 @@
   <tr>
     <td><%= tiny.small_image_url %></td>
     <td><%= tiny.large_image_url %></td>
+	 	<td><%= tiny.tinyPreview %></td>
+	 	<td><%= tiny.product_id %></td>
     <td><%= link_to 'Edit', "/tinies/edit/" + tiny.id.to_s %></td>
     <td><%= link_to 'Destroy', "/tinies/destroy/" + tiny.id.to_s , confirm: 'Are you sure?', method: :delete %></td>
   </tr>

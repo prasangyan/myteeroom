@@ -1,0 +1,2 @@
+==  CreatePreviewImages: migrating ============================================
+-- add_column("tinies", :tinyPreview)

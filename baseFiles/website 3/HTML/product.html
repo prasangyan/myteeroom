@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,14 +8,35 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" href="stylesheet/carousel.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="stylesheet/jquery-ui-1.8.9.custom.css" />
+<link rel="stylesheet" href="stylesheet/colorbox.css" />
 <!-- jQuery and Custom scripts -->
 <script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
 <script src="js/jquery.cycle.lite.1.0.min.js" type="text/javascript"></script>
 <script src="js/custom_scripts.js" type="text/javascript"></script>
 <script src="js/cloud-zoom.1.0.2.min.js" type="text/javascript"></script>
 <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.9.custom.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/modalWindow/jquery.colorbox-min.js"></script>
+<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+</script>
 <!-- Tipsy -->
 <script src="js/tipsy/jquery.tipsy.js" type="text/javascript"></script>
 <link href="js/tipsy/css.tipsy.css" rel="stylesheet" type="text/css" />
@@ -197,12 +218,25 @@
           </div>
           <div class="cart"> <span class="label">Qty:</span>
             <input type="text" value="1" size="2" name="quantity" id="qty"/>
-            <a class="button" id="button-cart" title="Add to Cart"><span>Add to Cart</span></a> <a href="#" class="wish_button" title="Add to Wish List">Add to Wish List</a> <a href="#" class="compare_button" title="Add to Compare">Add to Compare</a> </div>
+            <a href="#inline_content" class="button inline" id="button-cart" title="Add to Cart" ><span>Add to Cart</span></a> <a href="#" class="wish_button" title="Add to Wish List">Add to Wish List</a> <a href="#" class="compare_button" title="Add to Compare">Add to Compare</a> </div>
           <div class="tags"> <span class="label">Tags:</span> <a href="#">Dark</a> <a href="#">Animal</a> <a
 									href="#">Grey</a> <a href="#">Available</a> </div>
         </div>
         <div class="clear"></div>
       </div>
+			<!-- Notice Start -->
+			<div style='display:none'>
+				<div id='inline_content' style='padding:10px; background:#fff;'>
+				<p><strong>This content comes from a hidden element on this page.</strong></p>
+				<p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
+				<p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+				
+				<p><strong>If you try to open a new ColorBox while it is already open, it will update itself with the new content.</strong></p>
+				<p>Updating Content Example:<br />
+				<a class="ajax" href="../content/flash.html">Click here to load new content</a></p>
+				</div>
+			</div>
+			<!-- Notice End -->
       <!-- END OF PRODUCT INFO -->
       
       <div id="content">
