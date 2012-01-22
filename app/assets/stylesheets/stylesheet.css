@@ -26,7 +26,7 @@ BODY
 	color: #999999;
 	margin: 0px;
 	padding: 0px;
-	background: url(../image/back_body.jpg) repeat top left;
+	background: url(/assets/back_body.jpg) repeat top left;
 	font-family: AllerRegular, "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 BODY, TD, TH, INPUT, TEXTAREA, SELECT, A
