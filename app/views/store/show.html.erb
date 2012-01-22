@@ -1,4 +1,26 @@
-  <!-- CONTENT -->
+<% content_for :head do %>
+
+<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+<% end %>
+<!-- CONTENT -->
   <div id="content_holder" class="fixed">
     <div class="inner">
       <div class="breadcrumb"> <a href="index.html">Home</a> » <a href="category.html">Tees</a> » <%= @product.title
@@ -67,7 +89,9 @@
           </div>
           <div class="cart"> <span class="label">Qty:</span>
             <input type="text" value="1" size="2" name="quantity" id="qty"/>
-            <a class="button" id="button-cart" title="Add to Cart"><span>Add to Cart</span></a> <a href="#" class="wish_button" title="Add to Wish List">Add to Wish List</a></div>
+            <a href="#inline_content" class="button inline" id="button-cart" title="Add to Cart"><span>Add to
+						 Cart</span></a> <a href="#"
+																																																		class="wish_button" title="Add to Wish List">Add to Wish List</a></div>
           <div class="tags"> <span class="label">Tags:</span> <a href="#">Dark</a> <a href="#">Animal</a> <a
 									href="#">Grey</a> <a href="#">Available</a> </div>
         </div>
@@ -145,6 +169,22 @@
     </div>
   </div>
   <!-- END OF CONTENT -->
+
+<!-- Notice Start -->
+			<div style='display:none'>
+				<div id='inline_content' style='padding:10px; background:#fff;'>
+					<h3>20% discount</h3>
+					<p>We are still setting up a few things. Leave your email address and we will let you know as soon as we launch. We will also give you a 20% discount on anything you buy.</p>
+					<form action="">
+						<label for="email">Email</label>
+						<input type="text">
+						<br/>
+						<br>
+						<div class="left"><a class="button" id="button-review"><span>Submit email</span></a></div>
+					</form>
+				</div>
+			</div>
+	<!-- Notice End -->
 
 <!-- END OF MAIN WRAPPER -->
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>

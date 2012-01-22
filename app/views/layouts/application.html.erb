@@ -10,7 +10,7 @@
  	<!-- jQuery and Custom scripts -->
 
  	<%= javascript_include_tag "jquery-1.5.2.min" %>
-	<%	javascript_include_tag "jquery.cycle.lite.1.0.min" %>
+ 	<%	javascript_include_tag "jquery.cycle.lite.1.0.min" %>
  	<%= javascript_include_tag "jquery.cycle.lite.1.0.min" %>
 	<%= javascript_include_tag "custom_scripts"%>
 	<%= javascript_include_tag "jquery.roundabout.min" %>
@@ -20,32 +20,14 @@
  	<!-- Tipsy -->
  	<%= javascript_include_tag "tipsy/jquery.tipsy" %>
 	<%= javascript_include_tag "tabs"%>
-    <%= javascript_include_tag "cart" %>
+  <%= javascript_include_tag "cart" %>
 	<%= stylesheet_link_tag "tipsy/css.tipsy" %>
 
  	<!-- Modal window -->
- 	<%= javascrupt_include_tag "modal/jquery.colorbox-min.js"%>
+ 	<%= javascript_include_tag "modalWindow/jquery.colorbox-min.js"%>
+  <%= stylesheet_link_tag "colorbox.css" %>
+ 	<%= yield :head %>
 
- 	<link rel="stylesheet" href="stylesheet/colorbox.css" />
- 	<script>
-		$(document).ready(function(){
-			//Examples of how to assign the ColorBox event to elements
-			$(".inline").colorbox({inline:true, width:"50%"});
-			$(".callbacks").colorbox({
-				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-			});
-
-			//Example of preserving a JavaScript event for inline calls.
-			$("#click").click(function(){
-				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-				return false;
-			});
-		});
-	</script>
 </head>
 
 <body>
