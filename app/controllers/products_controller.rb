@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  before_filter :validate_user_logged_in
   # GET /products
   # GET /products.json
   def index
