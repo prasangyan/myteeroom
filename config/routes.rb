@@ -1,7 +1,7 @@
 Myteeroom::Application.routes.draw do
 
   resource :tinies
-
+	match "/store", :to => "store#list", :as => "store"
   resources :user_sessions
 
   resources :users
@@ -12,6 +12,7 @@ Myteeroom::Application.routes.draw do
 
   resources :carts
 
+	get "store/list"
   get "store/index"
 
   resources :products

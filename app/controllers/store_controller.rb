@@ -2,6 +2,7 @@ class StoreController < ApplicationController
   before_filter :validate_user_logged_in
 
   def index
+	 @product_header_previews = Product.find(1,2)
 	 @products = Product.all
   end
   def show
@@ -11,6 +12,10 @@ class StoreController < ApplicationController
       format.html # show.html.erb
       format.json { render json: @product }
     end
-  end
+	end
+	def list
+		@products = Product.all
+	end
+
 
 end

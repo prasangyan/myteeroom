@@ -38,25 +38,21 @@
   <div id="header">
     <div class="inner">
       <ul class="main_menu menu_left">
-        <li><a href="account.html">My Account</a></li>
-        <li><a href="wish.html">Wish List</a></li>
-        <li><a href="about.html">All Tees</a></li>
-        <li><a href="index.html">Home</a></li>
+        <li><%= link_to 'All Tees', :controller => :store, :action => :list %></li>
+        <li><a href="/">Home</a></li>
       </ul>
-      <div id="logo"><a href="index.html"><img src="/assets/logo.png" width="217" height="141" alt="myteeroom store"
+      <div id="logo"><a href="/"><img src="/assets/logo.png" width="217" height="141" alt="myteeroom store"
 			/></a></div>
       <ul class="main_menu menu_right">
-        <li><a href="cart.html">Shopping Cart</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
 				<li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
 
       <div class="menu">
         <ul id="topnav">
-          <li><a href="category.html">Guys</a></li>
-          <li><a href="category.html">Girls</a></li>
-          <li><a href="category.html">Kids</a></li>
+				 	<li><%= link_to 'Guys', :controller => :store, :action => :list %></li>
+          <li><%= link_to 'Girls', :controller => :store, :action => :list %></li>
+          <li><%= link_to 'Kids', :controller => :store, :action => :list %></li>
         </ul>
       </div>
     </div>
@@ -105,7 +101,6 @@
         <h3>Customer Service</h3>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">My Account</a></li>
           <li><a href="#">Order History</a></li>
           <li><a href="#">Wishlist</a></li>
           <li><a href="#">Newsletter</a></li>
@@ -126,7 +121,6 @@
       <div class="column_small">
         <h3>Extras</h3>
         <ul>
-          <li><a href="#">Brands</a></li>
           <li><a href="#">Gift vouchers</a></li>
           <li><a href="#">Affiliates</a></li>
           <li><a href="#">Specials</a></li>
