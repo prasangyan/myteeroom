@@ -11,21 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120122141338) do
+ActiveRecord::Schema.define(:version => 20120124075326) do
 
   create_table "carts", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "emails", :force => true do |t|
+  create_table "email_references", :force => true do |t|
     t.string   "email_address"
+    t.integer  "email_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "friend_email_addresses", :force => true do |t|
-    t.string   "friend_email_addresses"
+  create_table "emails", :force => true do |t|
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
