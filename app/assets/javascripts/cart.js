@@ -1,4 +1,10 @@
 $(function () {
+  $('.add_to_cart_small').colorbox({
+      iframe:true,
+      width: "80%",
+      height: "80%"
+  });
+/*
     $('.add_to_cart_small').click(function() {
         var CartItem = $(this);
         var productId = CartItem.attr('prod_id');
@@ -46,5 +52,6 @@ $(function () {
         });
         return false;
     });
+*/
 });
 

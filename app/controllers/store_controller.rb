@@ -1,6 +1,4 @@
 class StoreController < ApplicationController
-  before_filter :validate_user_logged_in
-
   def index
 	 @product_header_previews = Product.find(1,2)
 	 @products = Product.all
