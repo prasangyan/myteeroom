@@ -9,7 +9,7 @@
 						 	<% @product_header_previews.each do |preview| %>
 						 		<li>
 								 <div class="prod_holder">
-									 <%= link_to content_tag(image_tag preview.smallPreview), ('store/'+ preview.id.to_s) %>
+									 <%= link_to (image_tag preview.smallPreview), ('store/'+ preview.id.to_s) %>
 									 <h3>Flaming heart</h3>
 								 </div>
 								 <span class="pricetag">RM <%= preview.price %></span>
