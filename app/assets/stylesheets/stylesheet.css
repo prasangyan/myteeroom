@@ -26,7 +26,7 @@ BODY
 	color: #999999;
 	margin: 0px;
 	padding: 0px;
-	background: url(/assets/back_body.jpg) repeat top left;
+	background: url('/assets/back_body.jpg') repeat top left;
 	font-family: AllerRegular, "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 BODY, TD, TH, INPUT, TEXTAREA, SELECT, A
@@ -124,12 +124,12 @@ H6
 H2.heading-title
 {
 	font-size: 30px;
-	background: url(/assets/divider_full.png) no-repeat 0 50%;
+	background: url('/assets/divider_full.png') no-repeat 0 50%;
 }
 H2.heading-title SPAN
 {
 	padding: 0 12px;
-	background: url(/assetsback_body.jpg) repeat top left;
+	background: url('/assetsback_body.jpg') repeat top left;
 }
 .clear
 {
@@ -191,7 +191,7 @@ H2.heading-title SPAN
 	padding-bottom: 4px;
 	position: relative;
 	z-index: 20;
-	background: url(/assets/back_stitch_dark.png) repeat-x top left;
+	background: url('/assets/back_stitch_dark.png') repeat-x top left;
 }
 #header .inner
 {
@@ -225,7 +225,7 @@ UL.main_menu LI
 }
 UL.main_menu LI.warning
 {
-	background: url(/assets/nav_arrow.png) no-repeat 110% 22px;
+	background: url('/assets/nav_arrow.png') no-repeat 110% 22px;
 }
 UL.main_menu LI UL.secondary
 {
@@ -309,7 +309,7 @@ UL.main_menu LI A:hover, UL.main_menu LI A.active
 	height: 70px;
 	clear: both;
 	padding: 8px 0 0 10px;
-	background: url(/assets/back_header_categories.png) no-repeat top center;
+	background: url('/assets/back_header_categories.png') no-repeat top center;
 	position: relative;
 	z-index: 299;
 }
@@ -331,7 +331,7 @@ UL.main_menu LI A:hover, UL.main_menu LI A.active
 }
 .menu UL#topnav LI.dropdown
 {
-	background: url(/assets/nav_arrow.png) no-repeat 100% 20px;
+	background: url('/assets/nav_arrow.png') no-repeat 100% 20px;
 }
 .menu UL#topnav LI A
 {
@@ -415,7 +415,7 @@ UL.main_menu LI A:hover, UL.main_menu LI A.active
 }
 .menu UL#topnav UL.children LI.dropdown, .menu UL#topnav LI:hover UL.children LI.dropdown
 {
-	background: url(/assets/nav_arrow2.png) no-repeat top right;
+	background: url('/assets/nav_arrow2.png') no-repeat top right;
 }
 .menu UL#topnav UL.children LI A:hover
 {
@@ -428,7 +428,7 @@ UL.main_menu LI A:hover, UL.main_menu LI A.active
 {
 	width: 100%;
 	min-width: 988px;
-	background: url(/assets/back_stitch_dark.png) repeat-x bottom left;
+	background: url('/assets/back_stitch_dark.png') repeat-x bottom left;
 	background-color: #252525;
 	height: 65px;
 }
@@ -465,14 +465,14 @@ A.twitter_follow
 	display: block;
 	width: 34px;
 	height: 18px;
-	background: url(/assets/bird_icon.png) no-repeat bottom left;
+	background: url('/assets/bird_icon.png') no-repeat bottom left;
 	text-indent: -9999px;
 	float: left;
 	margin: 23px 20px 0 0;
 }
 A.twitter_follow:hover
 {
-	background: url(/assets/bird_icon.png) no-repeat top left;
+	background: url('/assets/bird_icon.png') no-repeat top left;
 }
 #tweet_prev
 {
@@ -483,7 +483,7 @@ A.twitter_follow:hover
 	position: absolute;
 	top: 22px;
 	right: 30px;
-	background: url(/assets/tweet_arrows.png) no-repeat bottom left;
+	background: url('/assets/tweet_arrows.png') no-repeat bottom left;
 }
 #tweet_next
 {
@@ -494,15 +494,15 @@ A.twitter_follow:hover
 	position: absolute;
 	top: 22px;
 	right: 0;
-	background: url(/assets/tweet_arrows.png) no-repeat top left;
+	background: url('/assets/tweet_arrows.png') no-repeat top left;
 }
 #tweet_next:hover
 {
-	background: url(/assets/tweet_arrows.png) no-repeat top right;
+	background: url('/assets/tweet_arrows.png') no-repeat top right;
 }
 #tweet_prev:hover
 {
-	background: url(/assets/tweet_arrows.png) no-repeat bottom right;
+	background: url('/assets/tweet_arrows.png') no-repeat bottom right;
 }
 /*FOOTER*/
 #footer
@@ -583,12 +583,12 @@ A.twitter_follow:hover
 .box
 {
 	margin-bottom: 30px;
-	background: url(/assets/divider_full.png) no-repeat bottom center;
+	background: url('/assets/divider_full.png') no-repeat bottom center;
 	padding-bottom: 10px;
 }
 #column-left .box, #column-right .box
 {
-	background: url(/assets/back_column_box.png) no-repeat bottom center;
+	background: url('/assets/back_column_box.png') no-repeat bottom center;
 	background-color: #F9F9F9;
 	padding: 0 0 10px;
 	border-top: 1px solid #F1F1F1;
@@ -619,7 +619,7 @@ A.twitter_follow:hover
 	margin: 0;
 	padding: 15px 0 0;
 	font-size: 24px;
-	background: url(/assets/divider_small.png) no-repeat center 70%;
+	background: url('/assets/divider_small.png') no-repeat center 70%;
 	border-left: 1px solid #F1F1F1;
 	border-right: 1px solid #F1F1F1;
 }
@@ -661,7 +661,7 @@ A.twitter_follow:hover
 {
 	display: block;
 	margin-bottom: 0px;
-	background: url(/assets/back_product_shadow.png) no-repeat bottom center;
+	background: url('/assets/back_product_shadow.png') no-repeat bottom center;
 	padding-bottom: 14px;
 }
 .prod_hold .image IMG
@@ -681,7 +681,7 @@ A.twitter_follow:hover
 	padding: 224px 18px 15px;
 	width: 184px;
 	display: none;
-	background: url(/assets/back_price_trans.png) repeat top left;
+	background: url('/assets/back_price_trans.png') repeat top left;
 	border: 7px solid #FFF;
 	z-index: 999;
 }
@@ -700,7 +700,7 @@ A.twitter_follow:hover
 	padding-bottom: 7px;
 	display: block;
 	text-transform: uppercase;
-	background: url(/assets/divider_small.png) no-repeat bottom center;
+	background: url('/assets/divider_small.png') no-repeat bottom center;
 }
 .prod_hold A.add_to_cart_small
 {
@@ -731,7 +731,7 @@ A.twitter_follow:hover
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #E1E1E1;
-	background: url(/assets/bullet_triangle.png) no-repeat 0 4px;
+	background: url('/assets/bullet_triangle.png') no-repeat 0 4px;
 	padding: 0 0 0 13px;
 }
 .wishlist_small
@@ -750,7 +750,7 @@ A.twitter_follow:hover
 }
 .pricetag_small
 {
-	background: url(/assets/pricetag_small.png) no-repeat top left;
+	background: url('/assets/pricetag_small.png') no-repeat top left;
 	display: block;
 	width: 109px;
 	height: 72px;
@@ -807,7 +807,7 @@ A.twitter_follow:hover
 {
 	width: 100%;
 	padding-bottom: 10px;
-	background: url(/assets/divider_small2.png) no-repeat bottom center;
+	background: url('/assets/divider_small2.png') no-repeat bottom center;
 	margin-bottom: 15px;
 	float: left;
 	clear: left;
@@ -877,7 +877,7 @@ A.twitter_follow:hover
 .box-category > UL > LI, .box-account > UL > LI, .box-affiliate > UL > LI
 {
 	padding: 0px;
-	background: url(/assets/divider_small2.png) no-repeat bottom center;
+	background: url('/assets/divider_small2.png') no-repeat bottom center;
 }
 .box-category > UL > LI > A, .box-account > UL > LI > A, .box-affiliate > UL > LI > A
 {
@@ -909,7 +909,7 @@ A.twitter_follow:hover
 .box-category > UL > LI UL > LI
 {
 	padding: 0px;
-	background: url(/assets/divider_small2.png) no-repeat bottom center;
+	background: url('/assets/divider_small2.png') no-repeat bottom center;
 }
 .box-category > UL > LI UL > LI > A
 {
@@ -981,7 +981,7 @@ A.twitter_follow:hover
 {
 	width: 95%;
 	display: block;
-	background: url(/assets/bullet_triangle_dark.png) no-repeat 0 7px;
+	background: url('/assets/bullet_triangle_dark.png') no-repeat 0 7px;
 }
 .sitemap-page UL LI A
 {
@@ -1009,7 +1009,7 @@ A.twitter_follow:hover
 {
 	padding: 0;
 	margin: 0;
-	background: url(/assets/back_banners.png) no-repeat top center;
+	background: url('/assets/back_banners.png') no-repeat top center;
 	width: 930px;
 	height: 172px;
 	margin: 0px 24px;
@@ -1039,7 +1039,7 @@ A.twitter_follow:hover
 }
 .featured-box .box-content
 {
-	background: url(/assets/back_featured_holder.png) no-repeat center 180px;
+	background: url('/assets/back_featured_holder.png') no-repeat center 180px;
 	position: relative;
 	z-index: 88;
 	padding: 0;
@@ -1060,7 +1060,7 @@ A.twitter_follow:hover
 	padding: 0;
 	height: 29em;
 	list-style: none;
-	background: url(/assets/shadow_featured.png) no-repeat 50% 103%;
+	background: url('/assets/shadow_featured.png') no-repeat 50% 103%;
 }
 .roundabout-moveable-item
 {
@@ -1068,7 +1068,7 @@ A.twitter_follow:hover
 	overflow: hidden;
 	padding: 0;
 	border: 7px solid #FFF;
-	opacity: 1!Important;
+	opacity: 1!important;
 	width: 450px;
 	height: 300px;
 	padding-top: 2px;
@@ -1101,13 +1101,13 @@ A.twitter_follow:hover
 	padding-top: 4px;
 	padding-bottom: 8px;
 	font-size: 28px;
-	background: url(/assets/back_price_trans.png) repeat top left;
+	background: url('/assets/back_price_trans.png') repeat top left;
 	width: 100%;
 	display: block;
 }
 .roundabout-moveable-item .pricetag
 {
-	background: url(/assets/pricetag.png) no-repeat top left;
+	background: url('/assets/pricetag.png') no-repeat top left;
 	display: block;
 	width: 135px;
 	height: 69px;
@@ -1129,7 +1129,7 @@ A.previous_round
 	display: block;
 	width: 14px;
 	height: 30px;
-	background: url(/assets/back_next_prev_round.png) no-repeat top left;
+	background: url('/assets/back_next_prev_round.png') no-repeat top left;
 	text-indent: -9999px;
 }
 A.next_round
@@ -1142,15 +1142,15 @@ A.next_round
 	height: 30px;
 	background-color: #F00;
 	text-indent: -9999px;
-	background: url(/assets/back_next_prev_round.png) no-repeat top right;
+	background: url('/assets/back_next_prev_round.png') no-repeat top right;
 }
 A.previous_round:hover
 {
-	background: url(/assets/back_next_prev_round.png) no-repeat bottom left;
+	background: url('/assets/back_next_prev_round.png') no-repeat bottom left;
 }
 A.next_round:hover
 {
-	background: url(/assets/back_next_prev_round.png) no-repeat bottom right;
+	background: url('/assets/back_next_prev_round.png') no-repeat bottom right;
 }
 /*breadcrumb*/
 .breadcrumb
@@ -1264,7 +1264,7 @@ A.wrap_link
 /*product*/
 .product-filter
 {
-	background: url(/assets/divider_full.png) no-repeat bottom center;
+	background: url('/assets/divider_full.png') no-repeat bottom center;
 	padding: 0px 25px 5px;
 	overflow: hidden;
 	margin-bottom: 35px;
@@ -1319,7 +1319,7 @@ A.wrap_link
 	float: left;
 	margin-bottom: 10px;
 	padding-bottom: 21px;
-	background: url(/assets/big_image_shadow.png) no-repeat bottom center;
+	background: url('/assets/big_image_shadow.png') no-repeat bottom center;
 	text-align: center;
 	position: relative;
 	z-index: 200;
@@ -1336,7 +1336,7 @@ A.wrap_link
 	height: 85px;
 	clear: both;
 	padding: 0;
-	background: url(/assets/back_image_additional.png) no-repeat 50% 50%;
+	background: url('/assets/back_image_additional.png') no-repeat 50% 50%;
 }
 .product-info .image-additional .image_car_holder
 {
@@ -1357,7 +1357,7 @@ A.wrap_link
 }
 .product-info .pricetag
 {
-	background: url(/assets/pricetag.png) no-repeat top left;
+	background: url('/assets/pricetag.png') no-repeat top left;
 	display: block;
 	width: 135px;
 	height: 69px;
@@ -1480,7 +1480,7 @@ DIV.reviews P
 {
 	width: 47px;
 	height: 47px;
-	background: url(/assets/back_qty.png) no-repeat top left;
+	background: url('/assets/back_qty.png') no-repeat top left;
 	border: none;
 	color: #333;
 	font-size: 21px;
@@ -1494,7 +1494,7 @@ TD.quantity INPUT
 {
 	width: 47px;
 	height: 47px;
-	background: url(/assets/back_qty.png) no-repeat top left;
+	background: url('/assets/back_qty.png') no-repeat top left;
 	border: none;
 	color: #333;
 	font-size: 21px;
@@ -1601,7 +1601,7 @@ TD.quantity INPUT
 	color: #D06464;
 	font-size: 14px;
 	font-weight: bold;
-	background: url(/assets/pat1.png) repeat top left;
+	background: url('/assets/pat1.png') repeat top left;
 	background-color: #E1E1E1;
 	text-align: left;
 	padding: 8px;
@@ -1836,7 +1836,7 @@ A.swap SPAN.button_review
 	-moz-border-radius: 5px;
 	-khtml-border-radius: 5px;
 	border-radius: 5px 5px 5px 5px;
-	background: url(/assets/pat1.png) repeat top left;
+	background: url('/assets/pat1.png') repeat top left;
 	background-color: #F5F5F5;
 }
 .box-contacts, .box-login
@@ -1844,7 +1844,7 @@ A.swap SPAN.button_review
 	display: block;
 	text-align: left;
 	padding: 2px 2px 18px;
-	background: url(/assets/shadow_box_sidebar.png) no-repeat bottom center;
+	background: url('/assets/shadow_box_sidebar.png') no-repeat bottom center;
 	margin-bottom: 20px;
 	float: left;
 	width: 100%;
@@ -1859,7 +1859,7 @@ A.swap SPAN.button_review
 	-khtml-border-radius: 5px;
 	border-radius: 5px 5px 5px 5px;
 	padding: 5px;
-	background: url(/assets/pat1.png) repeat top left;
+	background: url('/assets/pat1.png') repeat top left;
 	background-color: #F5F5F5;
 	float: left;
 	width: 100%;
@@ -1870,7 +1870,7 @@ A.swap SPAN.button_review
 }
 .box-contacts .stitched, .box-login .stitched
 {
-	background: url(/assets/stitch_light.png) repeat-x top left;
+	background: url('/assets/stitch_light.png') repeat-x top left;
 	height: 2px;
 	width: 100%;
 	line-height: 0px;
@@ -2072,7 +2072,7 @@ IMG#captcha
 	margin: 0 0 10px;
 	padding: 10px;
 	list-style: none;
-	background: url(/assets/divider_small2.png) no-repeat bottom center;
+	background: url('/assets/divider_small2.png') no-repeat bottom center;
 }
 .box-contact-details UL LI SPAN
 {
@@ -2085,15 +2085,15 @@ IMG#captcha
 }
 .box-contact-details UL LI.address SPAN
 {
-	background: url(/assets/address.png) no-repeat top left;
+	background: url('/assets/address.png') no-repeat top left;
 }
 .box-contact-details UL LI.phone SPAN
 {
-	background: url(/assets/phone.png) no-repeat top left;
+	background: url('/assets/phone.png') no-repeat top left;
 }
 .box-contact-details UL LI.fax SPAN
 {
-	background: url(/assets/fax.png) no-repeat top left;
+	background: url('/assets/fax.png') no-repeat top left;
 }
 .box-contacts INPUT, .box-contacts TEXTAREA, .box-write INPUT, .box-write TEXTAREA, .box-login INPUT
 {
@@ -2140,7 +2140,7 @@ IMG#captcha
 /*SHOPPING CART*/
 .cart-info
 {
-	background: url(/assets/shadow_big.png) no-repeat bottom center;
+	background: url('/assets/shadow_big.png') no-repeat bottom center;
 	margin-bottom: 20px;
 	padding-top: 25px;
 }
@@ -2505,22 +2505,22 @@ IMG#captcha
 }
 #sidefeatures UL LI.side_cart SPAN.icon
 {
-	background: url(/assets/cart_icon.png) no-repeat 50% 50%;
+	background: url('/assets/cart_icon.png') no-repeat 50% 50%;
 	border-bottom: 1px solid #E1E1E1;
 }
 #sidefeatures UL LI.side_currency SPAN.icon
 {
-	background: url(/assets/currency_icon.png) no-repeat 50% 50%;
+	background: url('/assets/currency_icon.png') no-repeat 50% 50%;
 	border-bottom: 1px solid #E1E1E1;
 }
 #sidefeatures UL LI.side_lang SPAN.icon
 {
-	background: url(/assets/lang_icon.png) no-repeat 50% 50%;
+	background: url('/assets/lang_icon.png') no-repeat 50% 50%;
 	border-bottom: 1px solid #E1E1E1;
 }
 #sidefeatures UL LI.side_search SPAN.icon
 {
-	background: url(/assets/search_icon.png) no-repeat 50% 50%;
+	background: url('/assets/search_icon.png') no-repeat 50% 50%;
 }
 #sidefeatures UL LI:hover
 {
@@ -2551,7 +2551,7 @@ IMG#captcha
 #sidefeatures #cart .heading H4
 {
 	color: #F1F1F1;
-	!Important font-size: 15px;
+	font-size: 15px !important;
 	font-weight: bold;
 	margin-top: 0px;
 	margin-bottom: 3px;
@@ -2701,7 +2701,7 @@ IMG#captcha
 }
 #sidefeatures .button-search
 {
-	background: url(/assets/search_icon.png) no-repeat 50% 50%;
+	background: url('/assets/search_icon.png') no-repeat 50% 50%;
 	background-color: #EEEEEE;
 	cursor: pointer;
 	width: 25px;
