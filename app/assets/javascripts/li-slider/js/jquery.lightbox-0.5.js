@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * jQuery lightBox plugin
  * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
  * and adapted to me for use like a plugin from jQuery.
@@ -42,7 +42,7 @@
 			keyToClose:				'c',		// (string) (c = close) Letter to close the jQuery lightBox interface. Beyond this letter, the letter X and the SCAPE key is used to.
 			keyToPrev:				'p',		// (string) (p = previous) Letter to show the previous image
 			keyToNext:				'n',		// (string) (n = next) Letter to show the next image.
-			// Don´t alter these variables in any way
+			// Don't alter these variables in any way
 			imageArray:				[],
 			activeImage:			0
 		},settings);
@@ -72,7 +72,7 @@
 			settings.imageArray.length = 0;
 			// Unset image active information
 			settings.activeImage = 0;
-			// We have an image set? Or just an image? Let´s see it.
+			// We have an image set? Or just an image? Let's see it.
 			if ( jQueryMatchedObj.length == 1 ) {
 				settings.imageArray.push(new Array(objClicked.getAttribute('href'),objClicked.getAttribute('title')));
 			} else {
@@ -170,7 +170,7 @@
 			});
 		}
 		/**
-		 * Prepares image exibition; doing a image´s preloader to calculate it´s size
+		 * Prepares image exibition; doing a image's preloader to calculate it's size
 		 *
 		 */
 		function _set_image_to_view() { // show the loading
@@ -196,16 +196,16 @@
 		/**
 		 * Perfomance an effect in the image container resizing it
 		 *
-		 * @param integer intImageWidth The image´s width that will be showed
-		 * @param integer intImageHeight The image´s height that will be showed
+		 * @param integer intImageWidth The image's width that will be showed
+		 * @param integer intImageHeight The image's height that will be showed
 		 */
 		function _resize_container_image_box(intImageWidth,intImageHeight) {
 			// Get current width and height
 			var intCurrentWidth = $('#lightbox-container-image-box').width();
 			var intCurrentHeight = $('#lightbox-container-image-box').height();
 			// Get the width and height of the selected image plus the padding
-			var intWidth = (intImageWidth + (settings.containerBorderSize * 2)); // Plus the image´s width and the left and right padding value
-			var intHeight = (intImageHeight + (settings.containerBorderSize * 2)); // Plus the image´s height and the left and right padding value
+			var intWidth = (intImageWidth + (settings.containerBorderSize * 2)); // Plus the image's width and the left and right padding value
+			var intHeight = (intImageHeight + (settings.containerBorderSize * 2)); // Plus the image's height and the left and right padding value
 			// Diferences
 			var intDiffW = intCurrentWidth - intWidth;
 			var intDiffH = intCurrentHeight - intHeight;
@@ -255,9 +255,9 @@
 		function _set_navigation() {
 			$('#lightbox-nav').show();
 
-			// Instead to define this configuration in CSS file, we define here. And it´s need to IE. Just.
+			// Instead to define this configuration in CSS file, we define here. And it's need to IE. Just.
 			$('#lightbox-nav-btnPrev,#lightbox-nav-btnNext').css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });
-			
+
 			// Show the prev button, if not the first image in set
 			if ( settings.activeImage != 0 ) {
 				if ( settings.fixedNavigation ) {
@@ -281,7 +281,7 @@
 					});
 				}
 			}
-			
+
 			// Show the next button, if not the last image in set
 			if ( settings.activeImage != ( settings.imageArray.length -1 ) ) {
 				if ( settings.fixedNavigation ) {
@@ -346,7 +346,7 @@
 			}
 			// Verify the key to show the previous image
 			if ( ( key == settings.keyToPrev ) || ( keycode == 37 ) ) {
-				// If we´re not showing the first image, call the previous
+				// If we're not showing the first image, call the previous
 				if ( settings.activeImage != 0 ) {
 					settings.activeImage = settings.activeImage - 1;
 					_set_image_to_view();
@@ -355,7 +355,7 @@
 			}
 			// Verify the key to show the next image
 			if ( ( key == settings.keyToNext ) || ( keycode == 39 ) ) {
-				// If we´re not showing the last image, call the next
+				// If we're not showing the last image, call the next
 				if ( settings.activeImage != ( settings.imageArray.length - 1 ) ) {
 					settings.activeImage = settings.activeImage + 1;
 					_set_image_to_view();

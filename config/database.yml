@@ -6,7 +6,7 @@
 development:
   adapter: mysql
   database: myteeroom_development
-  username: root #devuser
+  username: devuser #root
   password: password@123
   pool: 5
   timeout: 5000
@@ -18,7 +18,7 @@ development:
 test:
   adapter: mysql
   database: myteeroom_test
-  username: root #devuser
+  username: devuser #root
   password: password@123
   pool: 5
   timeout: 5000
