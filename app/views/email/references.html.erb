@@ -1,0 +1,40 @@
+<form action="/email/addreferences" method="post">
+  <ul>
+    <% unless @error == "" %>
+    <li>
+        <%= @error %>
+    </li>
+    <% end %>
+    <li>
+       <h1>Add a 10% discount</h1>
+        <p>Invite 5 friends or more and we will give you an additional 10% discount on your purchase when we open</p>
+    </li>
+    <li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    </li>
+    <li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    </li>
+    <li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    </li>
+    <li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    </li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    <li>
+        <label>Fiend's email</label>
+        <input type="text" name="email[]">
+    </li>
+    <li>
+      <input type="hidden" value="<%= params[:id] %>" name="id" />
+      <input type="submit" value="Add invitees" />
+      <input type="button" value="Skip" onclick="alert('add script to close box');" />
+    </li>
+  </ul>
+</form>

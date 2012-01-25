@@ -1,8 +1,8 @@
 $(function () {
   $('.add_to_cart_small').colorbox({
       iframe:true,
-      width: "80%",
-      height: "80%"
+      width: "550px",
+      height: "450px"
   });
 /*
     $('.add_to_cart_small').click(function() {

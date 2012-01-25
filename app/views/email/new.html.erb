@@ -1,0 +1,25 @@
+<form action="/email/add" method="post">
+  <ul>
+    <% if @email.errors.any? %>
+    <li>
+        <h2><%= pluralize(@email.errors.count, "error") %> prohibited this cart from being saved:</h2>
+        <ul>
+            <% @email.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+        </ul>
+    </li>
+    <% end %>
+    <li>
+        <label>
+          Email
+        </label>
+    </li>
+    <li>
+      <input type="text" name="email" />
+    </li>
+    <li>
+      <input type="submit" value="Add Email" />
+    </li>
+  </ul>
+</form>
