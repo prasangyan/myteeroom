@@ -6,46 +6,15 @@
           <h2 class="heading-title"><span>Featured Products</span></h2>
           <div class="box-content">
             <ul id="myRoundabout">
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee1.jpg" %> </a>
-                  <h3>Flaming heart</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee2.jpg" %></a>
-                  <h3>The star</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee3.jpg" %></a>
-                  <h3>Stay hidden</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee4.jpg" %></a>
-                  <h3>Flowers of the samurai</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee5.jpg" %></a>
-                  <h3>Flowers</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee6.jpg" %></a>
-                  <h3>Ninja love</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee7.jpg" %></a>
-                  <h3>Wild on the inside</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
-              <li>
-                <div class="prod_holder"> <a href="product.html"><%= image_tag "tee8.jpg" %></a>
-                  <h3>Skull of colors</h3>
-                </div>
-                <span class="pricetag">RM 59.95</span> </li>
+						 	<% @product_header_previews.each do |preview| %>
+						 		<li>
+								 <div class="prod_holder">
+									 <%= link_to content_tag(image_tag preview.smallPreview), preview %>
+									 <h3>Flaming heart</h3>
+								 </div>
+								 <span class="pricetag">RM <%= preview.price %></span>
+								</li>
+							<% end %>
             </ul>
             <a href="#" class="previous_round">Previous</a> <a href="#" class="next_round">Next</a> </div>
         </div>
@@ -69,6 +38,8 @@
           <div class="box-content">
             <div class="box-product fixed">
 
+<<<<<<< HEAD
+=======
               <div class="prod_hold"> <a class="wrap_link" href="product.html"> <span class="image"><%=image_tag ("prod_pic1.jpg")%></span> </a>
                 <div class="pricetag_small"> <span class="price">$ 147,99</span> </div>
                 <div class="info">
@@ -77,18 +48,22 @@
                   <a class="add_to_cart_small iframe" href="/email/new">Add to cart</a> <a class="wishlist_small" href="#">Wishlist</a> <a class="compare_small" href="#">Compare</a> </div>
               </div>
 
+>>>>>>> 3bdee39bfa0f1304698c8e2c3f55e7e135d04a92
               <% @products.each do |product| %>
                 <div class="prod_hold">
-								 	<%= link_to content_tag(:span,(image_tag product.homePreview), :class => "image"), product,:class => "wrap_link" %>
+								 	<%= link_to content_tag(:span,(image_tag product.image_url), :class => "image"), ('store/'+ product.id.to_s),:class => "wrap_link" %>
                   <div class="pricetag_small">
                     <span class="price">$ <%= product.price %></span>
                   </div>
                   <div class="info">
                     <h3><%= product.title %></h3>
                     <p><%= product.description %></p>
+<<<<<<< HEAD
+=======
                     <a class="add_to_cart_small" href="http://google.com" prod_id='<%=product.id %>'>Add to cart</a>
                     <a class="wishlist_small" href="#">Wishlist</a>
                     <a class="compare_small" href="#">Compare</a>
+>>>>>>> 3bdee39bfa0f1304698c8e2c3f55e7e135d04a92
                   </div>
                 </div>
               <% end %>

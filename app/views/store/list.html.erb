@@ -1,0 +1,39 @@
+  <!-- CONTENT -->
+  <div id="content_holder" class="fixed">
+    <div class="inner">
+      <div class="breadcrumb"> <a href="/">Home</a> » Tees </div>
+      <!-- LEFT COLUMN -->
+      <div id="column-left">
+        <div class="box">
+          <h3 class="heading-title"><span>Categories</span></h3>
+          <div class="box-content box-category">
+            <ul>
+              <li><%= link_to 'Guys', :controller => :store, :action => :list %></li>
+              <li><%= link_to 'Girls', :controller => :store, :action => :list %></li>
+              <li><%= link_to 'Kids', :controller => :store, :action => :list %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END OF LEFT COLUMN -->
+
+      <div id="content" class="content-column-left">
+        <div class="cat_list fixed">
+				 	<% @products.each do |product| %>
+				 		<div class="prod_hold">
+							<%= link_to content_tag(:span,(image_tag product.image_url), :class => "image"),
+													('store/'+ product.id.to_s), :class => "wrap_link" %>
+							<div class="pricetag_small"> <span class="price">RM <%= product.price %></span> </div>
+            	<div class="info">
+							 <h3><%= product.title  %></h3>
+							 <p><%= product.description  %></p>
+							</div>
+					 </div>
+					<% end %>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF CONTENT -->
+
