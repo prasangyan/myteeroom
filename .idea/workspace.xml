@@ -71,11 +71,7 @@
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\baseFiles\website 3\HTML\js\jquery.superbox.css" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\baseFiles\website 3\HTML\js\jquery.superbox.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Work\Design\myteeroom\log.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/show.html.erb" afterPath="$PROJECT_DIR$/app/views/store/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake" afterPath="$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake" />
     </list>
     <ignored path="myteeroom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,7 +124,7 @@
       <file leaf-file-name="copy_files_to_heroku_deploy_directory.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="204" selection-end="225" vertical-scroll-proportion="0.076233186">
+            <state line="20" column="28" selection-start="731" selection-end="731" vertical-scroll-proportion="0.38116592">
               <folding />
             </state>
           </provider>
@@ -781,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="204" selection-end="225" vertical-scroll-proportion="0.076233186">
+        <state line="20" column="28" selection-start="731" selection-end="731" vertical-scroll-proportion="0.38116592">
           <folding />
         </state>
       </provider>

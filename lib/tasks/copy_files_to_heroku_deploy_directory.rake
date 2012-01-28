@@ -16,4 +16,7 @@ task :copy_files_and_deploy do
  	# Commit work
  	sh 'git add .'
  	sh 'git commit -m "Automated commit from rake"'
+
+ 	# Push to heroku
+ 	sh 'git push heroku master'
 end
