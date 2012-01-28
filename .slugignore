@@ -1,1 +1,5 @@
-baseFiles
+baseFiles/*
+*.psd
+*.pdf
+test/*
+.git/*
