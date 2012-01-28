@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5ae74720-d946-4fb4-a4fe-81028d8f117c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slugignore" afterPath="$PROJECT_DIR$/.slugignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -8,6 +9,68 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+=======
+    <list default="true" id="8929b91b-f8f8-443a-8923-9d58685d9bbf" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\css\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\backgrounds\bodyBackground.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\backgrounds\checkmark.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\DSC05016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\DSCF0031.JPG" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\high.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\huge.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\fullscreen\wide.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\dark_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\facebook\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\prettyPhoto\light_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\flash-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\quicktime-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\t_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\t_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\t_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\t_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\images\thumbnails\t_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\js\jquery-1.3.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\js\jquery-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\javascripts\prettyphoto\js\jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Work\Design\myteeroom\app\assets\stylesheets\stylesheet.css.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/show.html.erb" afterPath="$PROJECT_DIR$/app/views/store/show.html.erb" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
     </list>
     <ignored path="myteeroom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +81,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+<<<<<<< HEAD
   <component name="CoverageDataManager" choice="3" />
+=======
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
     <option name="REVERSE_PATCH" value="false" />
@@ -31,6 +97,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +109,10 @@
       </file>
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
+=======
+      <file leaf-file-name="20120119083736_create_preview_images.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120119083736_create_preview_images.rb">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -49,8 +120,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/boot.rb">
+=======
+      <file leaf-file-name="20120119064616_create_tinies.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120119064616_create_tinies.rb">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -58,46 +134,81 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="42" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.78038067">
+=======
+      <file leaf-file-name="20120114191610_add_all_images.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120114191610_add_all_images.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="18" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="list.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/store/list.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="3" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/store/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="49" selection-end="156" vertical-scroll-proportion="0.03985932">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="store.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="58" selection-start="1763" selection-end="1763" vertical-scroll-proportion="-15.692307">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="41" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-16.346153">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
               <folding />
             </state>
           </provider>
@@ -112,6 +223,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/store/index.html.erb" />
@@ -126,6 +238,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+=======
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/store/show.html.erb" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -153,6 +274,10 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,6 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -269,11 +395,167 @@
       <item index="0" class="java.lang.String" itemvalue="Rake.db:seed" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Development" />
     </list>
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myteeroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
+<<<<<<< HEAD
+=======
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
     <option name="LAST_MERGED_REVISION" />
     <option name="MERGE_DRY_RUN" value="false" />
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
@@ -288,24 +570,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="5ae74720-d946-4fb4-a4fe-81028d8f117c" name="Default" comment="" />
       <created>1327472342975</created>
       <updated>1327472342975</updated>
+=======
+      <changelist id="8929b91b-f8f8-443a-8923-9d58685d9bbf" name="Default" comment="" />
+      <created>1327473250410</created>
+      <updated>1327473250410</updated>
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-1" y="25" width="1442" height="855" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="1358" y="-8" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3357297" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51369864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075995" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -319,6 +619,18 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+<<<<<<< HEAD
+=======
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
     <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
@@ -330,6 +642,10 @@
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+<<<<<<< HEAD
+=======
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -349,6 +665,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="126" selection-start="576" selection-end="576" vertical-scroll-proportion="0.47008547" />
@@ -360,15 +677,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+=======
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120120064027_adding_default_image_links.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120119083736_create_preview_images.rb">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/products.js.coffee">
+=======
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120119064616_create_tinies.rb">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/stylesheet.css.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="33" selection-start="774" selection-end="774" vertical-scroll-proportion="0.13432837" />
@@ -377,25 +707,55 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+        <state line="18" column="39" selection-start="384" selection-end="384" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="7" column="2" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+=======
+        <state line="25" column="0" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-16.346153">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="58" selection-start="1763" selection-end="1763" vertical-scroll-proportion="-15.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/list.html.erb">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="18" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
@@ -414,13 +774,34 @@
     <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="41" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120114191610_add_all_images.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/store/list.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="42" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.78038067">
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/store/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="49" selection-end="156" vertical-scroll-proportion="0.03985932">
+>>>>>>> 08e32a5ff66d8523479ddad7d80ada03e2428ff0
           <folding />
         </state>
       </provider>
