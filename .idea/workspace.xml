@@ -124,7 +124,7 @@
       <file leaf-file-name="copy_files_to_heroku_deploy_directory.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="731" selection-end="731" vertical-scroll-proportion="0.38116592">
+            <state line="21" column="28" selection-start="777" selection-end="777" vertical-scroll-proportion="0.4002242">
               <folding />
             </state>
           </provider>
@@ -632,7 +632,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -777,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/copy_files_to_heroku_deploy_directory.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="731" selection-end="731" vertical-scroll-proportion="0.38116592">
+        <state line="21" column="28" selection-start="777" selection-end="777" vertical-scroll-proportion="0.4002242">
           <folding />
         </state>
       </provider>

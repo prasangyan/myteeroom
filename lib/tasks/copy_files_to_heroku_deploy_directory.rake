@@ -14,9 +14,12 @@ task :copy_files_and_deploy do
   FileUtils.rm_rf 'D:\Work\Design\myteeroomReduced\baseFiles'
 
  	# Commit work
- 	sh 'git add .'
+	Dir.chdir('D:\Work\Design\myteeroomReduced')
+	sh 'git add .'
  	sh 'git commit -m "Automated commit from rake"'
-
  	# Push to heroku
  	sh 'git push heroku master'
+
+ 	# Returning to original directory
+ 	Dir.chdir('D:\Work\Design\myteeroom')
 end
